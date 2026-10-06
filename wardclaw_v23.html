@@ -90,7 +90,7 @@
   }
   .stat-float .stat-chip{background:transparent;border:none;padding:0;font-size:0.62rem;color:var(--text-dim);white-space:nowrap;}
   .stat-float .stat-chip b{font-size:0.62rem;}
-  
+
   /* Combat Score Box */
   .cs-box {
     background: var(--panel-2); border: 1px solid var(--border); border-radius: var(--radius);
@@ -200,7 +200,7 @@
   .qs-buy{font-size:0.66rem!important;padding:5px 7px!important;white-space:nowrap;}
   .qs-cost{font-size:0.58rem;color:var(--text-dim);text-align:center;margin-top:1px;font-family:'JetBrains Mono',monospace;}
   .paperdoll{
-    flex: 1; display:grid; gap:8px; 
+    flex: 1; display:grid; gap:8px;
     grid-template-columns:1fr 1fr 1fr;
     grid-template-areas:
       ". helmet ."
@@ -278,7 +278,7 @@
   .fusion-pair{display:flex;gap:12px;align-items:center;margin:12px 0;}
   .fusion-pair-item{flex:1;}
   .fusion-arrow{color:var(--gold);font-size:1.2rem;font-weight:bold;text-align:center;flex-shrink:0;width:30px;}
-  
+
   .bounties-list{display:flex;flex-direction:column;gap:10px;}
   .bounty-card{background:var(--panel-2);border:1px solid var(--border);border-left:3px solid var(--teal);border-radius:8px;padding:12px;transition:all .15s;}
   .bounty-card.claimed{opacity:0.6;border-left-color:var(--ok);}
@@ -480,7 +480,7 @@ nav.tabs{flex-wrap:wrap}nav.tabs button{flex:1 0 80px}.muted{overflow-wrap:anywh
 
       <div class="muted">Materials: <span class="num" id="materialsVal">0</span> — earned from dismantling, bounties, harvests, Academy, the rival, and dungeon runs; spent on crafting, Forge repairs, and Exchange stock.</div>
     </div>
-    
+
     <div class="panel">
       <h2>This Boss's Drops</h2>
       <p class="muted">Each boss draws from its own fixed pool of items — only rarity scales with depth. Duplicates match by name, slot, and rarity. Common, rare, and epic duplicates become gold; legendary duplicates stay in your inventory for future Legacy fusion. Excess gear goes to Overflow Stash; no existing item is discarded.</p>
@@ -652,7 +652,7 @@ const RARITY_CRAFT_COST = {common:3, rare:8, epic:20, legendary:50};
    Unlocks once you've earned 50 lifetime materials. One guaranteed item
    per unlocked rarity, deliberately pricier than crafting, restocking
    on a timer rather than being purchasable infinitely.
-   
+
    DAILY BOUNTIES — Three tasks reset daily (or on Prestige). Rewards scale
    with progression. Completes background engagement during idle sessions.
 --------------------------------------------------------- */
@@ -663,44 +663,44 @@ const BOUNTY_RESET_MS = 24*60*60*1000; // bounties reset every 24 real hours
 const BOUNTY_COUNT = 3;
 
 const BOUNTY_TEMPLATES = [
-  {id:"dismantle", label:"Dismantle %d Items", type:"dismantle", stat:"dismantles", 
-   baseTarget:(level)=>Math.max(5, Math.floor(2+level*0.1)), 
+  {id:"dismantle", label:"Dismantle %d Items", type:"dismantle", stat:"dismantles",
+   baseTarget:(level)=>Math.max(5, Math.floor(2+level*0.1)),
   },
-  
-  {id:"dodge", label:"Dodge %d Attacks", type:"dodge", stat:"dodges", 
-   baseTarget:(level)=>Math.max(15, Math.floor(20+level*0.4)), 
+
+  {id:"dodge", label:"Dodge %d Attacks", type:"dodge", stat:"dodges",
+   baseTarget:(level)=>Math.max(15, Math.floor(20+level*0.4)),
   },
-  
-  {id:"kill", label:"Defeat %d Bosses", type:"kill", stat:"bossesKilled", 
-   baseTarget:(level)=>Math.max(5, Math.floor(3+level*0.05)), 
+
+  {id:"kill", label:"Defeat %d Bosses", type:"kill", stat:"bossesKilled",
+   baseTarget:(level)=>Math.max(5, Math.floor(3+level*0.05)),
   },
-  
-  {id:"bind", label:"Bind %d Times", type:"bind", stat:"bindsMade", 
-   baseTarget:(level)=>Math.max(2, Math.floor(1+level*0.03)), 
+
+  {id:"bind", label:"Bind %d Times", type:"bind", stat:"bindsMade",
+   baseTarget:(level)=>Math.max(2, Math.floor(1+level*0.03)),
   },
-  
-  {id:"autohit", label:"Auto-Attack %d Times", type:"autohit", stat:"autoHits", 
-   baseTarget:(level)=>Math.max(100, Math.floor(200+level*5)), 
+
+  {id:"autohit", label:"Auto-Attack %d Times", type:"autohit", stat:"autoHits",
+   baseTarget:(level)=>Math.max(100, Math.floor(200+level*5)),
   },
-  
-  {id:"craft", label:"Craft %d Items", type:"craft", stat:"itemsCrafted", 
-   baseTarget:(level)=>Math.max(3, Math.floor(2+level*0.06)), 
+
+  {id:"craft", label:"Craft %d Items", type:"craft", stat:"itemsCrafted",
+   baseTarget:(level)=>Math.max(3, Math.floor(2+level*0.06)),
   },
-  
-  {id:"click", label:"Land %d Clicks", type:"click", stat:"clicksLanded", 
-   baseTarget:(level)=>Math.max(50, Math.floor(100+level*2)), 
+
+  {id:"click", label:"Land %d Clicks", type:"click", stat:"clicksLanded",
+   baseTarget:(level)=>Math.max(50, Math.floor(100+level*2)),
   },
-  
-  {id:"crit", label:"Land %d Critical Hits", type:"crit", stat:"critsLanded", 
-   baseTarget:(level)=>Math.max(10, Math.floor(15+level*0.2)), 
+
+  {id:"crit", label:"Land %d Critical Hits", type:"crit", stat:"critsLanded",
+   baseTarget:(level)=>Math.max(10, Math.floor(15+level*0.2)),
   },
-  
-  {id:"gold", label:"Earn %d Gold", type:"gold", stat:"goldEarned", 
-   baseTarget:(level)=>Math.floor(Math.max(500, level*100)), 
+
+  {id:"gold", label:"Earn %d Gold", type:"gold", stat:"goldEarned",
+   baseTarget:(level)=>Math.floor(Math.max(500, level*100)),
   },
-  
-  {id:"prestige", label:"Reach Boss %d", type:"prestige", stat:"bossLevelReached", 
-   baseTarget:(level)=>Math.max(level+1, Math.floor(level*1.2)), 
+
+  {id:"prestige", label:"Reach Boss %d", type:"prestige", stat:"bossLevelReached",
+   baseTarget:(level)=>Math.max(level+1, Math.floor(level*1.2)),
   }
 ];
 
@@ -740,7 +740,7 @@ function generateDailyBounties(){
 
 function ensureBountiesExist(){
   if(!exchangeEligible()) return; // Bounties only exist if Exchange is unlocked
-  
+
   if(!S.bounties || !Array.isArray(S.bounties)){
     S.bounties = [];
   }
@@ -758,7 +758,7 @@ function getBountyTemplate(templateId){
 function updateBountyStat(statKey, amount){
   if(!S.bountyStats) S.bountyStats = {};
   S.bountyStats[statKey] = statKey === "bossLevelReached" ? Math.max(S.bountyStats[statKey] || 0,amount) : (S.bountyStats[statKey] || 0) + amount;
-  
+
   // Update progress on active bounties
   if(!S.bounties) return;
   S.bounties.forEach(bounty => {
@@ -767,7 +767,7 @@ function updateBountyStat(statKey, amount){
       bounty.progress = Math.min(bounty.target,statKey === "bossLevelReached"
         ? Math.max(bounty.carriedProgress || 0,S.bountyStats[statKey] || 0)
         : (bounty.carriedProgress || 0)+Math.max(0,(S.bountyStats[statKey] || 0)-(bounty.startAt || 0)));
-      
+
       // Notify on completion
       if(oldProg < bounty.target && bounty.progress >= bounty.target){
         toast(`📋 Bounty complete: "${bounty.label.replace('%d', bounty.target)}"`);
@@ -782,21 +782,21 @@ function claimBounty(bountyIndex){
   if(!bounty || bounty.completed || bounty.progress < bounty.target){
     return false;
   }
-  
+
   const template = getBountyTemplate(bounty.templateId);
   if(!template) return false;
-  
+
   const rewards = bounty.rewards;
-  
+
   bounty.completed = true;
   bounty.claimedAt = Date.now();
-  
+
   S.gold += rewards.gold;
   S.merchantReputation+=rewards.reputation;
   if(rewards.materials > 0) gainMaterials(rewards.materials);
   if(rewards.favor > 0) S.favor += rewards.favor;
   if(rewards.essence > 0) S.essence += rewards.essence;
-  
+
   const rewardStr = [
     rewards.gold > 0 ? `${fmt(rewards.gold)}g` : null,
     rewards.materials > 0 ? `${rewards.materials} materials` : null,
@@ -804,7 +804,7 @@ function claimBounty(bountyIndex){
     rewards.essence > 0 ? `${rewards.essence} Essence` : null,
     `${rewards.reputation} merchant reputation`
   ].filter(Boolean).join(" + ");
-  
+
   toast(`✓ Bounty claimed! ${rewardStr}`);
   save();
   renderAll();
@@ -1017,8 +1017,8 @@ function getHarvestTemplate(id){
 
 function harvestCapacity(){
   const base = HARVEST_SLOTS_BASE;
-  const upgraded = (S.harvestUpgrades.slots2 ? 1 : 0) + 
-                   (S.harvestUpgrades.slots3 ? 1 : 0) + 
+  const upgraded = (S.harvestUpgrades.slots2 ? 1 : 0) +
+                   (S.harvestUpgrades.slots3 ? 1 : 0) +
                    (S.harvestUpgrades.slots4 ? 1 : 0);
   return base + upgraded;
 }
@@ -1028,27 +1028,27 @@ function shouldGrantSeed(bossLevel){return Math.random() < (bossLevel%10===0 ? S
 function grantSeed(bossLevel){
   if(!S.harvests) S.harvests = {seeds:[], plots:[], lastAutoHarvest:0};
   if(!S.harvestBossesEncountered) S.harvestBossesEncountered = [];
-  
+
   if(!S.harvestBossesEncountered.includes(bossLevel))S.harvestBossesEncountered.push(bossLevel);
-  
+
   const templates = HARVEST_TEMPLATES;
   const template = templates[Math.floor(Math.random() * templates.length)];
-  
+
   S.harvests.seeds.push({
     id: ++itemIdCounter,
     templateId: template.id,
     obtainedAt: Date.now()
   });
-  
+
   toast(`🌱 Seed obtained: ${template.name} ${template.icon}`);
 }
 
 function plantSeed(seedId, plotIndex){
   if(!Number.isInteger(plotIndex) || plotIndex < 0 || plotIndex >= harvestCapacity() || S.harvests.plots[plotIndex]) return;
-  
+
   const seedIdx = S.harvests.seeds.findIndex(s => s.id === seedId);
   if(seedIdx < 0) return;
-  
+
   const seed = S.harvests.seeds[seedIdx];
   const template = getHarvestTemplate(seed.templateId);
   const cost=plantingCost(seed.templateId);
@@ -1060,7 +1060,7 @@ function plantSeed(seedId, plotIndex){
     plantedAt: Date.now(),
     harvestedAt: null
   };
-  
+
   S.harvests.seeds.splice(seedIdx, 1);
   selectedSeedId=null;
   toast(`Planted ${template.name} ${template.icon}`);
@@ -1073,22 +1073,22 @@ function tryAutoHarvestPlots(){
   // Auto-harvest is now only for automation upgrades
   if(!S.harvestUpgrades.autoHarvest1) return;
   if(!S.harvests) return;
-  
+
   const now = Date.now();
   const lastCheck = S.harvests.lastAutoHarvest || 0;
-  
+
   // Rate limit based on upgrade level
   const interval = S.harvestUpgrades.autoHarvest2 ? 6000 : 12000; // 10/min vs 5/min
   if(now - lastCheck < interval) return;
-  
+
   S.harvests.lastAutoHarvest = now;
-  
+
   S.harvests.plots.forEach((plot, idx) => {
     if(!plot || plot.harvestedAt) return;
-    
+
     const template = getHarvestTemplate(plot.templateId);
     const timeSincePlant = now - plot.plantedAt;
-    
+
     if(timeSincePlant >= HARVEST_GROWTH_TIME_MS){
       harvestPlot(idx);
     }
@@ -1158,19 +1158,19 @@ function useHealingHerb(){
 function buyHarvestUpgrade(upgradeKey){
   const upgrade = HARVEST_UPGRADES.find(u => u.key === upgradeKey);
   if(!upgrade) return;
-  
+
   const cost = getUpgradeCost(upgrade);
-  
+
   if(S.gold < cost){
     toast("Not enough gold for this upgrade.");
     return;
   }
-  
+
   if(S.harvestUpgrades[upgradeKey]){
     toast("Already purchased this upgrade.");
     return;
   }
-  
+
   S.gold -= cost;
   S.harvestUpgrades[upgradeKey] = true;
   toast(`✓ Unlocked: ${upgrade.label}`);
@@ -1181,11 +1181,11 @@ function buyHarvestUpgrade(upgradeKey){
 function updateAwakeningProgress(slot, statKey, amount){
   const item = S.equipped[slot];
   if(!item || !item.awakening || item.awakening.isAwakened) return;
-  
+
   if(item.awakening.stat === statKey){
     const oldProgress = item.awakening.progress;
     item.awakening.progress = Math.min(item.awakening.target, oldProgress + amount);
-    
+
     // Check for completion
     if(oldProgress < item.awakening.target && item.awakening.progress >= item.awakening.target){
       awakeItem(slot);
@@ -1196,14 +1196,14 @@ function updateAwakeningProgress(slot, statKey, amount){
 function awakeItem(slot){
   const item = S.equipped[slot];
   if(!item || !item.awakening || item.awakening.isAwakened) return;
-  
+
   item.awakening.isAwakened = true;
-  
+
   // Add secondary stat to bonuses
   const secondary = item.awakening.secondaryStat;
   const levelFactor = 1 + S.bossLevel * 0.12;
   const value = +(secondary.baseValue * levelFactor).toFixed(2);
-  
+
   item.bonuses.push({
     stat: secondary.stat,
     label: secondary.label,
@@ -1211,14 +1211,14 @@ function awakeItem(slot){
     value: value,
     isAwakeningReward: true
   });
-  
+
   toast(`✨ ${item.name} has Awakened! Gained +${value}${secondary.suffix} ${secondary.label}!`);
   save();
   renderAll();
 }
 
 const TICK_MS = 200;
-const AUTO_ATTACK_RATIO = 0.20; 
+const AUTO_ATTACK_RATIO = 0.20;
 const OFFLINE_RATIO = 0.45;
 const OFFLINE_CAP_HOURS = 24;
 const PERK_DEFS = [
@@ -1370,7 +1370,7 @@ function fusionMultFor(item){ const lvl = fusionLevelOf(item); return lvl > 0 ? 
 
 // Find another legacy item with the same name, slot, and rarity (not yet fused together)
 function findFusionPartner(item){
-  return S.legacy.find(other => 
+  return S.legacy.find(other =>
     other.id !== item.id && !other.locked &&
     other.name === item.name &&
     other.slot === item.slot &&
@@ -1382,28 +1382,28 @@ function performFusion(primaryId, sacrificeId){
   if(dungeonReserved(primaryId) || dungeonReserved(sacrificeId))return false;
   const primary = S.legacy.find(i => i.id === primaryId);
   const sacrifice = S.legacy.find(i => i.id === sacrificeId);
-  
+
   if(!primary || !sacrifice) return false;
   if(primary.id === sacrifice.id) return false;
   if(primary.name !== sacrifice.name || primary.slot !== sacrifice.slot || primary.rarity !== sacrifice.rarity){
     toast("Can only fuse identical items (same name, slot, and rarity).");
     return false;
   }
-  
+
   if(sacrifice.locked){toast("Unlock the sacrifice item before fusion.");return false;}
   const currentLevel = fusionLevelOf(primary);
   if(currentLevel >= MAX_FUSION_LEVEL){
     toast(`${primary.name} is already at max Fusion level.`);
     return false;
   }
-  
+
   S.legacy = S.legacy.filter(i => i.id !== sacrificeId);
   primary.fusionLevel = currentLevel + 1;
   const newMult = fusionMultFor(primary);
-  
+
   toast(`${primary.name} fused! Now Fusion Lv.${primary.fusionLevel}/${MAX_FUSION_LEVEL} — all bonuses ×${newMult.toFixed(2)}.`
     + (primary.fusionLevel >= MAX_FUSION_LEVEL ? " Max Fusion reached!" : ""));
-  
+
   save();
   renderAll();
   return true;
@@ -2137,14 +2137,14 @@ function baseDerived(){
   const atkFlatTotal = atkBase;
   const itemAtkMult = 1 + (sumItemBonus("atkPct")/100);
   const finalAttack = atkFlatTotal * strMult * itemAtkMult;
-  
+
   const attackSpeed = Math.max(0.2, spdBase + sumItemBonus("spdFlat"));
   const defFlat = Math.max(0, defBase + sumItemBonus("defFlat"));
   const defReduction = defFlat / (defFlat + 100);
   const critChance = Math.min(90, critChanceBase + sumItemBonus("critChanceFlat"));
   const critMult = critMultBase + sumItemBonus("critMultFlat");
   const dodgeChance = Math.min(75, sumItemBonus("dodgeFlat"));
-  
+
   const goldMult = 1 + (sumItemBonus("goldGainPct")/100) + (S.perks.goldBonusPct||0)*0.02;
 
   return {maxHp, finalAttack, attackSpeed, defFlat, defReduction, critChance, critMult, dodgeChance, goldMult};
@@ -2269,7 +2269,7 @@ function rollBonusesFor(slot, rarity, bossLevel){
 }
 function genBossItem(slot, name, rarity, bossLevel){
   const item = {id: ++itemIdCounter, slot, rarity, name, setId:Math.random()<0.35 ? ["vanguard","stalker","prospector"][Math.floor(Math.random()*3)] : null, bonuses: rollBonusesFor(slot, rarity, bossLevel), keptAtPrestige:null,locked:false};
-  
+
   if(rarity === "legendary"){
     const awakeTemplate = getAwakeningTemplate(slot);
     item.awakening = {
@@ -2281,7 +2281,7 @@ function genBossItem(slot, name, rarity, bossLevel){
       secondaryStat: awakeTemplate.secondaryStat
     };
   }
-  
+
   ensureGearDurability(item);return item;
 }
 function genCraftedItem(slot, rarity, bossLevel,recipeName=null){
@@ -2289,7 +2289,7 @@ function genCraftedItem(slot, rarity, bossLevel,recipeName=null){
   const adj = CRAFT_ADJ[rarity][Math.floor(Math.random()*CRAFT_ADJ[rarity].length)];
   const name = recipeName || `${adj} ${noun}`;
   const item = {id: ++itemIdCounter, slot, rarity, name, setId:Math.random()<0.35 ? ["vanguard","stalker","prospector"][Math.floor(Math.random()*3)] : null, bonuses: rollBonusesFor(slot, rarity, bossLevel), keptAtPrestige:null,locked:false};
-  
+
   if(rarity === "legendary"){
     const awakeTemplate = getAwakeningTemplate(slot);
     item.awakening = {
@@ -2301,7 +2301,7 @@ function genCraftedItem(slot, rarity, bossLevel,recipeName=null){
       secondaryStat: awakeTemplate.secondaryStat
     };
   }
-  
+
   ensureGearDurability(item);return item;
 }
 
@@ -2652,7 +2652,7 @@ function rollHit(d){
 function triggerHitLogic(d, isAuto) {
   const {dmg, crit} = rollHit(d);
   let finalDmg = dmg;
-  
+
   if (isAuto) {
      const autoBoost = sumItemBonus("autoAtkBoost") / 100;
      finalDmg = Math.max(1, Math.round(dmg * (AUTO_ATTACK_RATIO + autoBoost)));
@@ -2676,13 +2676,13 @@ function triggerHitLogic(d, isAuto) {
   const g = d.goldMult;
   const goldEarned = Math.floor(goldPerHit() * g * (isAuto ? 0.25 : 1));
   S.gold += goldEarned;
-  
+
   // Track bounty stats
   updateBountyStat("goldEarned", goldEarned);
   if(!isAuto) updateBountyStat("clicksLanded", 1);
   if(isAuto) updateBountyStat("autoHits", 1);
   if(crit) updateBountyStat("critsLanded", 1);
-  
+
   // Track awakening stats
   if(crit) updateAwakeningProgress("weapon", "critsLanded", 1);
   if(isAuto) updateAwakeningProgress("ring", "autoHits", 1);
@@ -2705,7 +2705,7 @@ function applyPlayerHit(source){
   const chip = Math.max(0, Math.floor(bs.atk * CHIP_DAMAGE_RATIO * (1-d.defReduction)));
   if(chip > 0) {
       S.playerHp = Math.max(0, S.playerHp - chip);wearGear(Object.values(S.equipped).filter(Boolean),"damage",chip,S.playerMaxHp);
-      
+
       // Thorns (Legs)
       const thorns = sumItemBonus("thornDmg");
       if(thorns > 0 && S.bossHp > 0) {
@@ -2728,7 +2728,7 @@ function onBossKilled(){
   const g = derived().goldMult;
   const goldGain = Math.floor(goldOnKill() * g);
   S.gold += goldGain;
-  
+
   // Track bounty stats
   updateBountyStat("bossesKilled", 1);
   updateBountyStat("goldEarned", goldGain);
@@ -2802,7 +2802,7 @@ function tick(){
   if(S.atkTimerMs >= ATTACK_INTERVAL_MS){
     S.atkTimerMs = 0;
     const dodged = Math.random()*100 < d.dodgeChance;
-    
+
     if(dodged){
       spawnFloater(0, false, false, true);
       updateBountyStat("dodges", 1);
@@ -2855,13 +2855,13 @@ function spawnFloater(dmg, crit, isAuto, isDodge, customText, eventType){
   el.style.left = (40 + Math.random()*20) + "%";
   const rows={damage:25,block:42,dodge:42,reflect:59,heal:76,incoming:10};
   el.style.top = (rows[type] || 35) + "%";
-  
+
   if(customText) {
       el.textContent = customText;
   } else {
       el.textContent = isDodge ? "DODGED!" : ((crit ? "CRIT " : "") + fmt(dmg));
   }
-  
+
   wrap.appendChild(el);
   if(type !== "damage"){
     const feedback=document.getElementById("combatFeedback");
@@ -2938,7 +2938,7 @@ function renderAdventurerCard(adv){
 function renderBountiesList(){
   const container = document.getElementById("bountiesList");
   if(!container || !S.bounties) return;
-  
+
   let html = "";
   S.bounties.forEach((bounty, idx) => {
     const progress = bounty.progress || 0;
@@ -2947,7 +2947,7 @@ function renderBountiesList(){
     const completed = bounty.completed;
     const canClaim = progress >= target && !completed;
     const template = getBountyTemplate(bounty.templateId);
-    
+
     html += `
       <div class="bounty-card ${completed ? "claimed" : ""}">
         <div class="bounty-header">
@@ -2969,9 +2969,9 @@ function renderBountiesList(){
       </div>
     `;
   });
-  
+
   container.innerHTML = html;
-  
+
   // Attach click handlers to bounty buttons after rendering
   container.querySelectorAll(".bounty-claim-btn").forEach(btn => {
     btn.addEventListener("click", (e) => {
@@ -3026,23 +3026,23 @@ function renderHarvestPlots(){
 function renderHarvestUpgrades(){
   const container = document.getElementById("harvestUpgradesList");
   if(!container) return;
-  
+
   let html = `<div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:10px;">`;
-  
+
   HARVEST_UPGRADES.forEach(upgrade => {
     const purchased = S.harvestUpgrades[upgrade.key];
     const cost = getUpgradeCost(upgrade);
     const canAfford = S.gold >= cost;
-    
+
     html += `<div class="upgrade-card ${purchased ? "purchased" : ""}" style="background:var(--bg-deep);border:1px solid ${purchased ? "var(--ok)" : "var(--border)"};border-radius:8px;padding:10px;display:flex;flex-direction:column;gap:6px;">
       <div style="font-weight:700;font-size:0.8rem;">${upgrade.label}</div>
       <div style="font-size:0.7rem;color:var(--text-dim);">${upgrade.desc}</div>
-      ${purchased 
+      ${purchased
         ? `<div style="font-size:0.7rem;color:var(--ok);font-weight:700;">✓ Unlocked</div>`
         : `<button class="btn essence-btn" data-upgradekey="${upgrade.key}" ${!canAfford ? "disabled" : ""} style="font-size:0.65rem;padding:6px 8px;width:100%;">${fmt(cost)}g</button>`}
     </div>`;
   });
-  
+
   html += `</div>`;
   container.innerHTML = html;
 }
@@ -3300,7 +3300,7 @@ function itemCardHtml(item,showLock=true){
   const tag = item.keptAtPrestige !== null ? `<div class="legacy-tag">Kept at Prestige ${item.keptAtPrestige}</div>` : "";
   const bindTag = item.bindLevel ? `<div class="item-bind-tag">Bound Lv.${item.bindLevel}/${MAX_BIND_LEVEL}</div>` : "";
   const fusionTag = item.fusionLevel ? `<div class="item-fusion-tag">Fused Lv.${item.fusionLevel}/${MAX_FUSION_LEVEL} (×${fusionMultFor(item).toFixed(2)})</div>` : "";
-  
+
   let awakeningTag = "";
   if(item.awakening){
     if(item.awakening.isAwakened){
@@ -3314,7 +3314,7 @@ function itemCardHtml(item,showLock=true){
       </div>`;
     }
   }
-  
+
   return `
     <div data-itemid="${item.id}" class="item-card ${item.awakening && item.awakening.isAwakened ? 'awakened-item' : ''}" style="border-left-color:${color};">
       <div class="item-slot-tag">${SLOT_DISPLAY[item.slot]}</div>
@@ -3811,7 +3811,7 @@ function openEquipSlotModal(slot){
       </div>
     `;
     root.innerHTML = modalHtml;
-    
+
     const choicesEl = document.getElementById("equipModalChoices");
     if(!items.length){
       choicesEl.innerHTML = `<p class="muted" style="margin-top:0;">No unequipped items for this slot.</p>`;
@@ -3822,7 +3822,7 @@ function openEquipSlotModal(slot){
         wrap.style.border = "1px solid var(--border)";
         wrap.style.borderRadius = "8px";
         wrap.style.padding = "10px";
-        
+
         wrap.innerHTML = itemCardHtml(item) + `
           <div class="item-actions" style="margin-top:8px;">
             <button class="btn equip-btn" data-id="${item.id}">Equip</button>
@@ -3831,7 +3831,7 @@ function openEquipSlotModal(slot){
         `;
         choicesEl.appendChild(wrap);
       });
-      
+
       // Attach events to the buttons we just injected
       choicesEl.querySelectorAll('.equip-btn').forEach(b => {
         b.onclick = () => { equipFromInventory(Number(b.dataset.id)); render(); };
@@ -3840,7 +3840,7 @@ function openEquipSlotModal(slot){
         b.onclick = () => { dismantleInventory(Number(b.dataset.id)); render(); };
       });
     }
-    
+
     document.getElementById("equipModalClose").onclick = ()=>{ root.innerHTML = ""; renderAll(); };
   }
   render();
@@ -3930,24 +3930,24 @@ function openFusionModal(primaryId){
   const root = document.getElementById("modalRoot");
   const primary = S.legacy.find(i => i.id === primaryId);
   if(!primary) return;
-  
+
   const partner = findFusionPartner(primary);
   if(!partner){
     toast("No matching item found to fuse with.");
     return;
   }
-  
+
   const currentLevel = fusionLevelOf(primary);
   const nextLevel = currentLevel + 1;
   const nextMult = FUSION_LEVEL_MULT[nextLevel - 1];
   const currentMult = currentLevel > 0 ? FUSION_LEVEL_MULT[currentLevel - 1] : 1;
-  
+
   root.innerHTML = `
     <div class="modal-overlay">
       <div class="modal">
         <h3 style="color:var(--gold);">Fuse Legacy Items</h3>
         <p class="muted">Permanently merge two identical items to strengthen the keeper. The sacrificed item is destroyed, but all of the keeper's bonuses are multiplied.</p>
-        
+
         <div class="fusion-panel">
           <div class="muted" style="font-weight:700;margin-bottom:10px;">Keeper (will be upgraded)</div>
           ${itemCardHtml(primary)}
@@ -3956,18 +3956,18 @@ function openFusionModal(primaryId){
             <span class="num" style="color:var(--gold);">×${currentMult.toFixed(2)} → ×${nextMult.toFixed(2)}</span>
           </div>
         </div>
-        
+
         <div class="fusion-panel">
           <div class="muted" style="font-weight:700;color:var(--danger);margin-bottom:10px;">⚠ Sacrifice (will be destroyed)</div>
           ${itemCardHtml(partner)}
         </div>
-        
+
         <p class="muted" style="background:var(--bg-deep);border:1px solid var(--border);border-radius:8px;padding:8px;font-size:0.75rem;">
-          <b>Effect:</b> ${primary.name} will have all its bonuses multiplied by ×${nextMult.toFixed(2)}. 
+          <b>Effect:</b> ${primary.name} will have all its bonuses multiplied by ×${nextMult.toFixed(2)}.
           This applies to Bind levels, Favor levels, and any other stat bonuses the item grants.
           ${nextLevel >= MAX_FUSION_LEVEL ? "<b style='color:var(--legendary);'> This will reach max Fusion!</b>" : ""}
         </p>
-        
+
         <div class="row-end">
           <button class="btn secondary" id="fusionCancel">Cancel</button>
           <button class="btn essence-btn" id="fusionConfirm" style="background:var(--gold);color:#1a0e08;">Fuse Now</button>
@@ -3975,7 +3975,7 @@ function openFusionModal(primaryId){
       </div>
     </div>
   `;
-  
+
   document.getElementById("fusionCancel").onclick = ()=>{ root.innerHTML = ""; };
   document.getElementById("fusionConfirm").onclick = ()=>{
     performFusion(primaryId, partner.id);
@@ -4129,19 +4129,19 @@ document.getElementById("app").addEventListener("click", (e)=>{
   if(seedItem){selectedSeedId=Number(seedItem.dataset.seedid);renderHarvest();return;}
   const empty=e.target.closest(".plot-slot.empty");
   if(empty){if(selectedSeedId == null){toast("Choose a seed first.");return;}plantSeed(selectedSeedId,Number(empty.dataset.plotidx));return;}
-  
+
   const clearBtn = e.target.closest("[data-clearharvest]");
   if(clearBtn){
     clearHarvestedPlot(Number(clearBtn.dataset.clearharvest));
     return;
   }
-  
+
   const harvestBtn = e.target.closest("[data-harvest]");
   if(harvestBtn){
     harvestPlot(Number(harvestBtn.dataset.harvest));
     return;
   }
-  
+
   const upgradeBtn = e.target.closest("[data-upgradekey]");
   if(upgradeBtn){
     buyHarvestUpgrade(upgradeBtn.dataset.upgradekey);
