@@ -1,0 +1,5136 @@
+[
+  {
+    "seed": 17,
+    "milestones": [
+      {
+        "prestige": 0,
+        "boss": 20,
+        "minutes": 5,
+        "deaths": 2,
+        "gold": 324,
+        "companion": 0,
+        "academyRenown": 0
+      },
+      {
+        "prestige": 1,
+        "boss": 25,
+        "minutes": 13,
+        "deaths": 4,
+        "gold": 181,
+        "companion": 0,
+        "academyRenown": 0
+      },
+      {
+        "prestige": 2,
+        "boss": 32,
+        "minutes": 28,
+        "deaths": 14,
+        "gold": 2010,
+        "companion": 0,
+        "academyRenown": 0
+      },
+      {
+        "prestige": 3,
+        "boss": 41,
+        "minutes": 38,
+        "deaths": 14,
+        "gold": 4798,
+        "companion": 0,
+        "academyRenown": 0
+      },
+      {
+        "prestige": 4,
+        "boss": 52,
+        "minutes": 43,
+        "deaths": 14,
+        "gold": 11953,
+        "companion": 1,
+        "academyRenown": 0
+      },
+      {
+        "prestige": 5,
+        "boss": 65,
+        "minutes": 46,
+        "deaths": 14,
+        "gold": 81522,
+        "companion": 3,
+        "academyRenown": 0
+      },
+      {
+        "prestige": 6,
+        "boss": 80,
+        "minutes": 48,
+        "deaths": 14,
+        "gold": 27889,
+        "companion": 5,
+        "academyRenown": 0
+      },
+      {
+        "prestige": 7,
+        "boss": 97,
+        "minutes": 51,
+        "deaths": 14,
+        "gold": 60801,
+        "companion": 7,
+        "academyRenown": 0
+      }
+    ],
+    "dungeonReadyState": {
+      "gold": 81522,
+      "essence": 3,
+      "materials": 2,
+      "prestigeCount": 5,
+      "zoneLootClaims": [
+        3,
+        5,
+        10,
+        15,
+        20,
+        25,
+        30,
+        35,
+        40,
+        45,
+        50,
+        55,
+        60
+      ],
+      "onboarding": {
+        "unlocked": [
+          "harvest",
+          "prestige",
+          "craft",
+          "exchange",
+          "sets",
+          "academy",
+          "companion",
+          "rival",
+          "dungeon",
+          "escape"
+        ],
+        "seen": []
+      },
+      "autoRepair": {
+        "owned": false,
+        "enabled": false
+      },
+      "escapeSigils": 0,
+      "summon": {
+        "unlocked": false,
+        "active": null,
+        "lastPulseAt": 0
+      },
+      "blueprints": {
+        "common": 14,
+        "rare": 0,
+        "epic": 1,
+        "legendary": 0
+      },
+      "resources": {
+        "herbs": 0,
+        "supplies": 38
+      },
+      "gardenBestLevel": 52,
+      "rival": {
+        "met": false,
+        "level": 1,
+        "relationship": "neutral",
+        "respect": 0,
+        "chapter": 0,
+        "meetings": 0,
+        "wins": 0,
+        "losses": 0,
+        "since": 318,
+        "dailyCount": 0,
+        "resetAt": 1791410646209,
+        "pending": {
+          "level": 8,
+          "gold": 188,
+          "id": 1
+        },
+        "duel": null,
+        "quest": null,
+        "journal": []
+      },
+      "companions": {
+        "active": "fox",
+        "creatures": [
+          {
+            "type": "fox",
+            "befriended": true,
+            "level": 3,
+            "xp": 34,
+            "traits": [
+              "hunter"
+            ],
+            "pulse": 3,
+            "lastAbilityAt": 1791327015609
+          },
+          {
+            "type": "wolf",
+            "befriended": false,
+            "level": 1,
+            "xp": 0,
+            "traits": [],
+            "pulse": 0,
+            "lastAbilityAt": 0
+          },
+          {
+            "type": "turtle",
+            "befriended": false,
+            "level": 1,
+            "xp": 0,
+            "traits": [],
+            "pulse": 0,
+            "lastAbilityAt": 0
+          }
+        ],
+        "feedCount": 0,
+        "feedResetAt": 1791410646209
+      },
+      "dungeon": {
+        "run": null,
+        "best": 0,
+        "tokens": 0,
+        "mastery": 0,
+        "milestones": []
+      },
+      "cropJournal": {
+        "wheat": 9,
+        "herb": 6,
+        "crystal": 5,
+        "oats": 10
+      },
+      "caretaker": {
+        "owned": false,
+        "enabled": false,
+        "remaining": 0,
+        "resetAt": 0
+      },
+      "campActive": false,
+      "checkpointLevel": 61,
+      "merchantReputation": 3,
+      "exchangeRequests": [],
+      "blueprintFragments": {
+        "common": 8,
+        "rare": 0,
+        "epic": 0,
+        "legendary": 0
+      },
+      "academySigils": 5,
+      "bossLevel": 65,
+      "bossHp": 176703,
+      "bossMaxHp": 187415,
+      "playerHp": 438,
+      "playerMaxHp": 438,
+      "stats": {
+        "hp": 24,
+        "atk": 24,
+        "str": 20,
+        "spd": 22,
+        "def": 23,
+        "critChance": 19,
+        "critMult": 19
+      },
+      "equipped": {
+        "weapon": {
+          "id": 1791324246115,
+          "slot": "weapon",
+          "rarity": "epic",
+          "name": "The Sable Throne Fang",
+          "setId": "vanguard",
+          "bonuses": [
+            {
+              "stat": "atkPct",
+              "label": "ATK",
+              "suffix": "%",
+              "value": 1389.83
+            },
+            {
+              "stat": "critMultFlat",
+              "label": "Crit Dmg",
+              "suffix": "x",
+              "value": 16.39
+            }
+          ],
+          "keptAtPrestige": null,
+          "locked": false,
+          "durabilityMax": 100000,
+          "durability": 99504,
+          "wearRemainder": 0,
+          "durabilityWarned": false
+        },
+        "helmet": {
+          "id": 1791324246117,
+          "slot": "helmet",
+          "rarity": "epic",
+          "name": "The Hollow Reach Helm",
+          "setId": "stalker",
+          "bonuses": [
+            {
+              "stat": "defFlat",
+              "label": "DEF",
+              "suffix": "",
+              "value": 564.48
+            }
+          ],
+          "keptAtPrestige": null,
+          "locked": false,
+          "durabilityMax": 100000,
+          "durability": 99938,
+          "wearRemainder": 0.0031857589970425426,
+          "durabilityWarned": false
+        },
+        "necklace": {
+          "id": 1791324246123,
+          "slot": "necklace",
+          "rarity": "epic",
+          "name": "Wyrmfall Herald's Pendant",
+          "setId": null,
+          "bonuses": [
+            {
+              "stat": "critChanceFlat",
+              "label": "Crit Chance",
+              "suffix": "%",
+              "value": 381.75
+            }
+          ],
+          "keptAtPrestige": null,
+          "locked": false,
+          "durabilityMax": 100000,
+          "durability": 99954,
+          "wearRemainder": 0,
+          "durabilityWarned": false
+        },
+        "chest": {
+          "id": 1791324246101,
+          "slot": "chest",
+          "rarity": "rare",
+          "name": "The Sable Throne Breastplate",
+          "setId": null,
+          "bonuses": [
+            {
+              "stat": "defFlat",
+              "label": "DEF",
+              "suffix": "",
+              "value": 90.41
+            }
+          ],
+          "keptAtPrestige": null,
+          "locked": false,
+          "durabilityMax": 75000,
+          "durability": 74816,
+          "wearRemainder": 0.21222105101029154,
+          "durabilityWarned": false
+        },
+        "shield": {
+          "id": 1791324246023,
+          "slot": "shield",
+          "rarity": "epic",
+          "name": "Emberclaw's Aegis",
+          "setId": "stalker",
+          "bonuses": [
+            {
+              "stat": "defFlat",
+              "label": "DEF",
+              "suffix": "",
+              "value": 514.21
+            },
+            {
+              "stat": "blockChance",
+              "label": "Block Chance",
+              "suffix": "%",
+              "value": 8
+            }
+          ],
+          "keptAtPrestige": 3,
+          "locked": false,
+          "durabilityMax": 100000,
+          "durability": 99285,
+          "wearRemainder": 0.033433024259010624,
+          "durabilityWarned": false,
+          "bindLevel": 1
+        },
+        "legs": {
+          "id": 1791324246108,
+          "slot": "legs",
+          "rarity": "rare",
+          "name": "The Wyrmfall Depths Greaves",
+          "setId": null,
+          "bonuses": [
+            {
+              "stat": "defFlat",
+              "label": "DEF",
+              "suffix": "",
+              "value": 111.37
+            }
+          ],
+          "keptAtPrestige": null,
+          "locked": false,
+          "durabilityMax": 75000,
+          "durability": 74831,
+          "wearRemainder": 0.8035131873981844,
+          "durabilityWarned": false
+        },
+        "ring": {
+          "id": 1791324246110,
+          "slot": "ring",
+          "rarity": "rare",
+          "name": "The Bramblewood Road Band",
+          "setId": null,
+          "bonuses": [
+            {
+              "stat": "spdFlat",
+              "label": "Speed",
+              "suffix": "/s",
+              "value": 5.39
+            }
+          ],
+          "keptAtPrestige": null,
+          "locked": false,
+          "durabilityMax": 75000,
+          "durability": 74178,
+          "wearRemainder": 0,
+          "durabilityWarned": false
+        },
+        "boots": {
+          "id": 1791324246112,
+          "slot": "boots",
+          "rarity": "epic",
+          "name": "The Cinderfall Bastion Treads",
+          "setId": null,
+          "bonuses": [
+            {
+              "stat": "defFlat",
+              "label": "DEF",
+              "suffix": "",
+              "value": 391.63
+            }
+          ],
+          "keptAtPrestige": null,
+          "locked": false,
+          "durabilityMax": 100000,
+          "durability": 99884,
+          "wearRemainder": 0.2080643265866451,
+          "durabilityWarned": false
+        }
+      },
+      "inventory": [
+        {
+          "id": 1791324246097,
+          "slot": "necklace",
+          "rarity": "rare",
+          "name": "The Cinderfall Bastion Pendant",
+          "setId": null,
+          "bonuses": [
+            {
+              "stat": "dodgeFlat",
+              "label": "Dodge",
+              "suffix": "%",
+              "value": 57.12
+            }
+          ],
+          "keptAtPrestige": null,
+          "locked": false,
+          "durabilityMax": 75000,
+          "durability": 73667,
+          "wearRemainder": 0,
+          "durabilityWarned": false
+        },
+        {
+          "id": 1791324246122,
+          "slot": "necklace",
+          "rarity": "epic",
+          "name": "The Iron Expanse Pendant",
+          "setId": null,
+          "bonuses": [
+            {
+              "stat": "dodgeFlat",
+              "label": "Dodge",
+              "suffix": "%",
+              "value": 351.36
+            }
+          ],
+          "keptAtPrestige": null,
+          "locked": false,
+          "durabilityMax": 100000,
+          "durability": 100000,
+          "wearRemainder": 0,
+          "durabilityWarned": false
+        },
+        {
+          "id": 1791324246124,
+          "slot": "chest",
+          "rarity": "epic",
+          "name": "The Wyrmfall Depths Breastplate",
+          "setId": null,
+          "bonuses": [
+            {
+              "stat": "defFlat",
+              "label": "DEF",
+              "suffix": "",
+              "value": 843.66
+            }
+          ],
+          "keptAtPrestige": null,
+          "locked": false,
+          "durabilityMax": 100000,
+          "durability": 100000,
+          "wearRemainder": 0,
+          "durabilityWarned": false
+        }
+      ],
+      "legacy": [
+        {
+          "id": 1791324245948,
+          "slot": "weapon",
+          "rarity": "common",
+          "name": "The Bramblewood Road Fang",
+          "setId": "prospector",
+          "bonuses": [
+            {
+              "stat": "atkPct",
+              "label": "ATK",
+              "suffix": "%",
+              "value": 30.55
+            },
+            {
+              "stat": "doubleHitChance",
+              "label": "Double Hit",
+              "suffix": "%",
+              "value": 24
+            }
+          ],
+          "keptAtPrestige": 1,
+          "locked": false,
+          "durabilityMax": 50000,
+          "durability": 36053,
+          "wearRemainder": 0,
+          "durabilityWarned": false,
+          "bindLevel": 3
+        },
+        {
+          "id": 1791324246055,
+          "slot": "weapon",
+          "rarity": "rare",
+          "name": "Steel Blade",
+          "setId": null,
+          "bonuses": [
+            {
+              "stat": "atkPct",
+              "label": "ATK",
+              "suffix": "%",
+              "value": 256.85
+            },
+            {
+              "stat": "critMultFlat",
+              "label": "Crit Dmg",
+              "suffix": "x",
+              "value": 3.49
+            },
+            {
+              "stat": "doubleHitChance",
+              "label": "Double Hit",
+              "suffix": "%",
+              "value": 16
+            }
+          ],
+          "keptAtPrestige": 4,
+          "locked": false,
+          "durabilityMax": 75000,
+          "durability": 72554,
+          "wearRemainder": 0,
+          "durabilityWarned": false,
+          "bindLevel": 2
+        },
+        {
+          "id": 1791324245990,
+          "slot": "boots",
+          "rarity": "rare",
+          "name": "The Hollow Reach Treads",
+          "setId": "vanguard",
+          "bonuses": [
+            {
+              "stat": "defFlat",
+              "label": "DEF",
+              "suffix": "",
+              "value": 189.04
+            }
+          ],
+          "keptAtPrestige": 2,
+          "locked": false,
+          "durabilityMax": 75000,
+          "durability": 73937,
+          "wearRemainder": 0.3961805063905051,
+          "durabilityWarned": false
+        },
+        {
+          "id": 1791324246092,
+          "slot": "weapon",
+          "rarity": "epic",
+          "name": "The Hollow Reach Fang",
+          "setId": "vanguard",
+          "bonuses": [
+            {
+              "stat": "atkPct",
+              "label": "ATK",
+              "suffix": "%",
+              "value": 1073.19
+            },
+            {
+              "stat": "critMultFlat",
+              "label": "Crit Dmg",
+              "suffix": "x",
+              "value": 12.19
+            },
+            {
+              "stat": "doubleHitChance",
+              "label": "Double Hit",
+              "suffix": "%",
+              "value": 8
+            }
+          ],
+          "keptAtPrestige": 5,
+          "locked": false,
+          "durabilityMax": 100000,
+          "durability": 99031,
+          "wearRemainder": 0,
+          "durabilityWarned": false,
+          "bindLevel": 1
+        }
+      ],
+      "overflow": [],
+      "autoOwned": true,
+      "autoActive": true,
+      "lastClickTs": 0,
+      "lastSave": 1791324246009,
+      "gcTimerMs": 0,
+      "gcFailedOnce": false,
+      "roundNumber": 2,
+      "pbBossLevel": 65,
+      "atkTimerMs": 200,
+      "perks": {
+        "invSlots": 0,
+        "legacySlots": 0,
+        "bindCostReduction": 0,
+        "goldBonusPct": 0,
+        "dropBonusPct": 0,
+        "extraHp": 5,
+        "bossHpReduction": 0
+      },
+      "favor": 1,
+      "academy": {
+        "unlocked": false,
+        "adventurers": [],
+        "renown": 0,
+        "introSeen": false,
+        "expeditions": [],
+        "discoveries": [],
+        "relics": [],
+        "routes": []
+      },
+      "lifetimeMaterials": 31,
+      "exchangeStock": {
+        "common": {
+          "item": {
+            "id": 1791324245982,
+            "slot": "ring",
+            "rarity": "common",
+            "name": "Cracked Band",
+            "setId": null,
+            "bonuses": [
+              {
+                "stat": "critChanceFlat",
+                "label": "Crit Chance",
+                "suffix": "%",
+                "value": 36.67
+              }
+            ],
+            "keptAtPrestige": null,
+            "locked": false,
+            "durabilityMax": 50000,
+            "durability": 50000,
+            "wearRemainder": 0,
+            "durabilityWarned": false
+          },
+          "sold": false
+        },
+        "rare": {
+          "item": {
+            "id": 1791324245983,
+            "slot": "weapon",
+            "rarity": "rare",
+            "name": "Steel Blade",
+            "setId": "prospector",
+            "bonuses": [
+              {
+                "stat": "atkPct",
+                "label": "ATK",
+                "suffix": "%",
+                "value": 153.52
+              },
+              {
+                "stat": "critMultFlat",
+                "label": "Crit Dmg",
+                "suffix": "x",
+                "value": 2.69
+              }
+            ],
+            "keptAtPrestige": null,
+            "locked": false,
+            "durabilityMax": 75000,
+            "durability": 75000,
+            "wearRemainder": 0,
+            "durabilityWarned": false
+          },
+          "sold": false
+        },
+        "epic": {
+          "item": {
+            "id": 1791324245984,
+            "slot": "helmet",
+            "rarity": "epic",
+            "name": "Runic Coif",
+            "setId": null,
+            "bonuses": [
+              {
+                "stat": "defFlat",
+                "label": "DEF",
+                "suffix": "",
+                "value": 405.13
+              }
+            ],
+            "keptAtPrestige": null,
+            "locked": false,
+            "durabilityMax": 100000,
+            "durability": 100000,
+            "wearRemainder": 0,
+            "durabilityWarned": false
+          },
+          "sold": false
+        },
+        "epic_3": {
+          "item": {
+            "id": 1791324245985,
+            "slot": "boots",
+            "rarity": "epic",
+            "name": "Sanctified Footguards",
+            "setId": null,
+            "bonuses": [
+              {
+                "stat": "defFlat",
+                "label": "DEF",
+                "suffix": "",
+                "value": 225.38
+              }
+            ],
+            "keptAtPrestige": null,
+            "locked": false,
+            "durabilityMax": 100000,
+            "durability": 100000,
+            "wearRemainder": 0,
+            "durabilityWarned": false
+          },
+          "sold": false
+        }
+      },
+      "exchangeRefreshAt": 1791346476409,
+      "bounties": [
+        {
+          "templateId": "dodge",
+          "label": "Dodge %d Attacks",
+          "type": "dodge",
+          "stat": "dodges",
+          "target": 28,
+          "progress": 28,
+          "completed": true,
+          "claimedAt": 1791325021209,
+          "startAt": 0,
+          "carriedProgress": 28,
+          "rewards": {
+            "gold": 1236,
+            "materials": 0,
+            "favor": 0,
+            "essence": 1,
+            "reputation": 1
+          }
+        },
+        {
+          "templateId": "crit",
+          "label": "Land %d Critical Hits",
+          "type": "crit",
+          "stat": "critsLanded",
+          "target": 19,
+          "progress": 19,
+          "completed": true,
+          "claimedAt": 1791325021209,
+          "startAt": 0,
+          "carriedProgress": 19,
+          "rewards": {
+            "gold": 1854,
+            "materials": 0,
+            "favor": 1,
+            "essence": 0,
+            "reputation": 1
+          }
+        },
+        {
+          "templateId": "prestige",
+          "label": "Reach Boss %d",
+          "type": "prestige",
+          "stat": "bossLevelReached",
+          "target": 24,
+          "progress": 24,
+          "completed": true,
+          "claimedAt": 1791325021209,
+          "startAt": 0,
+          "carriedProgress": 24,
+          "rewards": {
+            "gold": 2472,
+            "materials": 0,
+            "favor": 0,
+            "essence": 2,
+            "reputation": 1
+          }
+        }
+      ],
+      "bountyResetAt": 1791411276409,
+      "bountyStats": {
+        "dismantles": 4,
+        "dodges": 22,
+        "bossesKilled": 67,
+        "bindsMade": 1,
+        "autoHits": 832,
+        "itemsCrafted": 0,
+        "clicksLanded": 567,
+        "critsLanded": 130,
+        "goldEarned": 231579,
+        "bossLevelReached": 65,
+        "blocksSurvived": 0,
+        "blocksLanded": 0,
+        "thornsDamageDealt": 0,
+        "dodgeHealsLanded": 0,
+        "lifestealHealed": 0
+      },
+      "harvests": {
+        "seeds": [
+          {
+            "id": 1791324246099,
+            "templateId": "oats",
+            "obtainedAt": 1791326830009
+          },
+          {
+            "id": 1791324246100,
+            "templateId": "crystal",
+            "obtainedAt": 1791326836009
+          },
+          {
+            "id": 1791324246102,
+            "templateId": "herb",
+            "obtainedAt": 1791326851009
+          },
+          {
+            "id": 1791324246104,
+            "templateId": "oats",
+            "obtainedAt": 1791326861009
+          },
+          {
+            "id": 1791324246109,
+            "templateId": "oats",
+            "obtainedAt": 1791326906209
+          },
+          {
+            "id": 1791324246111,
+            "templateId": "oats",
+            "obtainedAt": 1791326946009
+          },
+          {
+            "id": 1791324246113,
+            "templateId": "oats",
+            "obtainedAt": 1791326949609
+          },
+          {
+            "id": 1791324246114,
+            "templateId": "herb",
+            "obtainedAt": 1791326957409
+          },
+          {
+            "id": 1791324246119,
+            "templateId": "herb",
+            "obtainedAt": 1791326989809
+          },
+          {
+            "id": 1791324246125,
+            "templateId": "wheat",
+            "obtainedAt": 1791327013409
+          }
+        ],
+        "plots": [
+          {
+            "id": 1791324246116,
+            "templateId": "wheat",
+            "plantedAt": 1791326971209,
+            "harvestedAt": null
+          },
+          {
+            "id": 1791324246118,
+            "templateId": "wheat",
+            "plantedAt": 1791326981209,
+            "harvestedAt": null
+          },
+          {
+            "id": 1791324246120,
+            "templateId": "herb",
+            "plantedAt": 1791326991209,
+            "harvestedAt": null
+          }
+        ],
+        "lastAutoHarvest": 0
+      },
+      "harvestUpgrades": {
+        "slots2": false,
+        "slots3": false,
+        "slots4": false,
+        "autoHarvest1": false,
+        "autoHarvest2": false,
+        "goldBoost1": false,
+        "materialBoost1": false
+      },
+      "harvestBossesEncountered": [
+        5,
+        8,
+        11,
+        12,
+        3,
+        6,
+        16,
+        17,
+        19,
+        22,
+        4,
+        13,
+        15,
+        26,
+        27,
+        29,
+        28,
+        30,
+        7,
+        18,
+        20,
+        24,
+        31,
+        32,
+        9,
+        10,
+        35,
+        36,
+        47,
+        23,
+        39,
+        40,
+        42,
+        53,
+        60
+      ]
+    },
+    "minutes": 51,
+    "prestige": 8,
+    "boss": 1,
+    "deaths": 14,
+    "academyWins": 0,
+    "academyRenown": 0,
+    "totalBounties": 3,
+    "items": 8,
+    "journal": {
+      "wheat": 12,
+      "herb": 7,
+      "crystal": 7,
+      "oats": 10
+    },
+    "endState": {
+      "gold": 0,
+      "essence": 10,
+      "materials": 23,
+      "prestigeCount": 8,
+      "zoneLootClaims": [],
+      "onboarding": {
+        "unlocked": [
+          "harvest",
+          "prestige",
+          "craft",
+          "exchange",
+          "sets",
+          "academy",
+          "companion",
+          "rival",
+          "dungeon",
+          "escape",
+          "caretaker"
+        ],
+        "seen": []
+      },
+      "autoRepair": {
+        "owned": false,
+        "enabled": false
+      },
+      "escapeSigils": 0,
+      "summon": {
+        "unlocked": false,
+        "active": null,
+        "lastPulseAt": 0
+      },
+      "blueprints": {
+        "common": 27,
+        "rare": 0,
+        "epic": 0,
+        "legendary": 0
+      },
+      "resources": {
+        "herbs": 4,
+        "supplies": 35
+      },
+      "gardenBestLevel": 97,
+      "rival": {
+        "met": false,
+        "level": 1,
+        "relationship": "neutral",
+        "respect": 0,
+        "chapter": 0,
+        "meetings": 0,
+        "wins": 0,
+        "losses": 0,
+        "since": 493,
+        "dailyCount": 0,
+        "resetAt": 1791410646209,
+        "pending": {
+          "level": 8,
+          "gold": 188,
+          "id": 1
+        },
+        "duel": null,
+        "quest": null,
+        "journal": []
+      },
+      "companions": {
+        "active": "fox",
+        "creatures": [
+          {
+            "type": "fox",
+            "befriended": true,
+            "level": 7,
+            "xp": 17,
+            "traits": [
+              "hunter",
+              "hunter"
+            ],
+            "pulse": 5,
+            "lastAbilityAt": 1791327309809
+          },
+          {
+            "type": "wolf",
+            "befriended": false,
+            "level": 1,
+            "xp": 0,
+            "traits": [],
+            "pulse": 0,
+            "lastAbilityAt": 0
+          },
+          {
+            "type": "turtle",
+            "befriended": false,
+            "level": 1,
+            "xp": 0,
+            "traits": [],
+            "pulse": 0,
+            "lastAbilityAt": 0
+          }
+        ],
+        "feedCount": 0,
+        "feedResetAt": 1791410646209
+      },
+      "dungeon": {
+        "run": null,
+        "best": 0,
+        "tokens": 0,
+        "mastery": 0,
+        "milestones": []
+      },
+      "cropJournal": {
+        "wheat": 12,
+        "herb": 7,
+        "crystal": 7,
+        "oats": 10
+      },
+      "caretaker": {
+        "owned": false,
+        "enabled": false,
+        "remaining": 0,
+        "resetAt": 0
+      },
+      "campActive": false,
+      "checkpointLevel": 1,
+      "merchantReputation": 3,
+      "exchangeRequests": [],
+      "blueprintFragments": {
+        "common": 9,
+        "rare": 0,
+        "epic": 0,
+        "legendary": 0
+      },
+      "academySigils": 5,
+      "bossLevel": 1,
+      "bossHp": 188,
+      "bossMaxHp": 188,
+      "playerHp": 221,
+      "playerMaxHp": 221,
+      "stats": {
+        "hp": 0,
+        "atk": 0,
+        "str": 0,
+        "spd": 0,
+        "def": 0,
+        "critChance": 0,
+        "critMult": 0
+      },
+      "equipped": {
+        "weapon": {
+          "id": 1791324246228,
+          "slot": "weapon",
+          "rarity": "epic",
+          "name": "The Iron Expanse Fang",
+          "setId": "prospector",
+          "bonuses": [
+            {
+              "stat": "atkPct",
+              "label": "ATK",
+              "suffix": "%",
+              "value": 1604.49
+            },
+            {
+              "stat": "critMultFlat",
+              "label": "Crit Dmg",
+              "suffix": "x",
+              "value": 25.87
+            }
+          ],
+          "keptAtPrestige": 8,
+          "locked": false,
+          "durabilityMax": 100000,
+          "durability": 99502,
+          "wearRemainder": 0,
+          "durabilityWarned": false
+        },
+        "helmet": null,
+        "necklace": null,
+        "chest": null,
+        "shield": {
+          "id": 1791324246023,
+          "slot": "shield",
+          "rarity": "epic",
+          "name": "Emberclaw's Aegis",
+          "setId": "stalker",
+          "bonuses": [
+            {
+              "stat": "defFlat",
+              "label": "DEF",
+              "suffix": "",
+              "value": 514.21
+            },
+            {
+              "stat": "blockChance",
+              "label": "Block Chance",
+              "suffix": "%",
+              "value": 16
+            }
+          ],
+          "keptAtPrestige": 3,
+          "locked": false,
+          "durabilityMax": 100000,
+          "durability": 99178,
+          "wearRemainder": 0.24831475455755259,
+          "durabilityWarned": false,
+          "bindLevel": 2
+        },
+        "legs": null,
+        "ring": {
+          "id": 1791324246169,
+          "slot": "ring",
+          "rarity": "epic",
+          "name": "The Sable Throne Band",
+          "setId": "prospector",
+          "bonuses": [
+            {
+              "stat": "spdFlat",
+              "label": "Speed",
+              "suffix": "/s",
+              "value": 35.62
+            }
+          ],
+          "keptAtPrestige": 7,
+          "locked": false,
+          "durabilityMax": 100000,
+          "durability": 97871,
+          "wearRemainder": 0,
+          "durabilityWarned": false
+        },
+        "boots": {
+          "id": 1791324245990,
+          "slot": "boots",
+          "rarity": "rare",
+          "name": "The Hollow Reach Treads",
+          "setId": "vanguard",
+          "bonuses": [
+            {
+              "stat": "defFlat",
+              "label": "DEF",
+              "suffix": "",
+              "value": 189.04
+            }
+          ],
+          "keptAtPrestige": 2,
+          "locked": false,
+          "durabilityMax": 75000,
+          "durability": 73908,
+          "wearRemainder": 0.32595316365809246,
+          "durabilityWarned": false
+        }
+      },
+      "inventory": [],
+      "legacy": [
+        {
+          "id": 1791324245948,
+          "slot": "weapon",
+          "rarity": "common",
+          "name": "The Bramblewood Road Fang",
+          "setId": "prospector",
+          "bonuses": [
+            {
+              "stat": "atkPct",
+              "label": "ATK",
+              "suffix": "%",
+              "value": 30.55
+            },
+            {
+              "stat": "doubleHitChance",
+              "label": "Double Hit",
+              "suffix": "%",
+              "value": 24
+            }
+          ],
+          "keptAtPrestige": 1,
+          "locked": false,
+          "durabilityMax": 50000,
+          "durability": 36053,
+          "wearRemainder": 0,
+          "durabilityWarned": false,
+          "bindLevel": 3
+        },
+        {
+          "id": 1791324246055,
+          "slot": "weapon",
+          "rarity": "rare",
+          "name": "Steel Blade",
+          "setId": null,
+          "bonuses": [
+            {
+              "stat": "atkPct",
+              "label": "ATK",
+              "suffix": "%",
+              "value": 256.85
+            },
+            {
+              "stat": "critMultFlat",
+              "label": "Crit Dmg",
+              "suffix": "x",
+              "value": 3.49
+            },
+            {
+              "stat": "doubleHitChance",
+              "label": "Double Hit",
+              "suffix": "%",
+              "value": 16
+            }
+          ],
+          "keptAtPrestige": 4,
+          "locked": false,
+          "durabilityMax": 75000,
+          "durability": 72554,
+          "wearRemainder": 0,
+          "durabilityWarned": false,
+          "bindLevel": 2
+        },
+        {
+          "id": 1791324246092,
+          "slot": "weapon",
+          "rarity": "epic",
+          "name": "The Hollow Reach Fang",
+          "setId": "vanguard",
+          "bonuses": [
+            {
+              "stat": "atkPct",
+              "label": "ATK",
+              "suffix": "%",
+              "value": 1073.19
+            },
+            {
+              "stat": "critMultFlat",
+              "label": "Crit Dmg",
+              "suffix": "x",
+              "value": 12.19
+            },
+            {
+              "stat": "doubleHitChance",
+              "label": "Double Hit",
+              "suffix": "%",
+              "value": 8
+            }
+          ],
+          "keptAtPrestige": 5,
+          "locked": false,
+          "durabilityMax": 100000,
+          "durability": 99031,
+          "wearRemainder": 0,
+          "durabilityWarned": false,
+          "bindLevel": 1
+        },
+        {
+          "id": 1791324246115,
+          "slot": "weapon",
+          "rarity": "epic",
+          "name": "The Sable Throne Fang",
+          "setId": "vanguard",
+          "bonuses": [
+            {
+              "stat": "atkPct",
+              "label": "ATK",
+              "suffix": "%",
+              "value": 1389.83
+            },
+            {
+              "stat": "critMultFlat",
+              "label": "Crit Dmg",
+              "suffix": "x",
+              "value": 16.39
+            },
+            {
+              "stat": "doubleHitChance",
+              "label": "Double Hit",
+              "suffix": "%",
+              "value": 16
+            }
+          ],
+          "keptAtPrestige": 6,
+          "locked": false,
+          "durabilityMax": 100000,
+          "durability": 97248,
+          "wearRemainder": 0,
+          "durabilityWarned": false,
+          "bindLevel": 2
+        }
+      ],
+      "overflow": [],
+      "autoOwned": false,
+      "autoActive": false,
+      "lastClickTs": 0,
+      "lastSave": 1791324246009,
+      "gcTimerMs": 0,
+      "gcFailedOnce": false,
+      "roundNumber": 1,
+      "pbBossLevel": 1,
+      "atkTimerMs": 0,
+      "perks": {
+        "invSlots": 0,
+        "legacySlots": 0,
+        "bindCostReduction": 0,
+        "goldBonusPct": 0,
+        "dropBonusPct": 0,
+        "extraHp": 8,
+        "bossHpReduction": 0
+      },
+      "favor": 1,
+      "academy": {
+        "unlocked": true,
+        "adventurers": [
+          {
+            "id": 1791324246196,
+            "name": "Wrenna",
+            "level": 1,
+            "xp": 0,
+            "gear": {
+              "tool": 0,
+              "armor": 0
+            },
+            "busy": null,
+            "injuredUntil": null,
+            "encounter": null,
+            "talents": [],
+            "role": "scout",
+            "abilities": [],
+            "questProgress": 0,
+            "signature": false
+          },
+          {
+            "id": 1791324246201,
+            "name": "Thessaly",
+            "level": 1,
+            "xp": 0,
+            "gear": {
+              "tool": 0,
+              "armor": 0
+            },
+            "busy": null,
+            "injuredUntil": null,
+            "encounter": null,
+            "talents": [],
+            "role": "guardian",
+            "abilities": [],
+            "questProgress": 0,
+            "signature": false
+          },
+          {
+            "id": 1791324246203,
+            "name": "Fenwick",
+            "level": 1,
+            "xp": 0,
+            "gear": {
+              "tool": 0,
+              "armor": 0
+            },
+            "busy": null,
+            "injuredUntil": null,
+            "encounter": null,
+            "talents": [],
+            "role": "scholar",
+            "abilities": [],
+            "questProgress": 0,
+            "signature": false
+          },
+          {
+            "id": 1791324246207,
+            "name": "Perrin",
+            "level": 1,
+            "xp": 0,
+            "gear": {
+              "tool": 0,
+              "armor": 0
+            },
+            "busy": null,
+            "injuredUntil": null,
+            "encounter": null,
+            "talents": [],
+            "role": "quartermaster",
+            "abilities": [],
+            "questProgress": 0,
+            "signature": false
+          }
+        ],
+        "renown": 0,
+        "introSeen": false,
+        "expeditions": [
+          {
+            "id": 1791324246200,
+            "destination": "woods",
+            "fragmentRarity": "common",
+            "team": [
+              1791324246196
+            ],
+            "pack": {
+              "herbs": 0,
+              "provisions": 3,
+              "tools": 0,
+              "gold": 0
+            },
+            "initialProvisions": 3,
+            "purseCost": 41049,
+            "stage": 0,
+            "readyAt": 1791327741209,
+            "startedAt": 1791327141209,
+            "paths": [],
+            "loot": {
+              "gold": 0,
+              "materials": 0,
+              "fragments": 0,
+              "sigils": 0
+            },
+            "baseGold": 2052495,
+            "baseMaterials": 2
+          }
+        ],
+        "discoveries": [
+          "woods"
+        ],
+        "relics": [],
+        "routes": []
+      },
+      "lifetimeMaterials": 99,
+      "exchangeStock": {
+        "common": {
+          "item": {
+            "id": 1791324245982,
+            "slot": "ring",
+            "rarity": "common",
+            "name": "Cracked Band",
+            "setId": null,
+            "bonuses": [
+              {
+                "stat": "critChanceFlat",
+                "label": "Crit Chance",
+                "suffix": "%",
+                "value": 36.67
+              }
+            ],
+            "keptAtPrestige": null,
+            "locked": false,
+            "durabilityMax": 50000,
+            "durability": 50000,
+            "wearRemainder": 0,
+            "durabilityWarned": false
+          },
+          "sold": false
+        },
+        "rare": {
+          "item": {
+            "id": 1791324245983,
+            "slot": "weapon",
+            "rarity": "rare",
+            "name": "Steel Blade",
+            "setId": "prospector",
+            "bonuses": [
+              {
+                "stat": "atkPct",
+                "label": "ATK",
+                "suffix": "%",
+                "value": 153.52
+              },
+              {
+                "stat": "critMultFlat",
+                "label": "Crit Dmg",
+                "suffix": "x",
+                "value": 2.69
+              }
+            ],
+            "keptAtPrestige": null,
+            "locked": false,
+            "durabilityMax": 75000,
+            "durability": 75000,
+            "wearRemainder": 0,
+            "durabilityWarned": false
+          },
+          "sold": false
+        },
+        "epic": {
+          "item": {
+            "id": 1791324245984,
+            "slot": "helmet",
+            "rarity": "epic",
+            "name": "Runic Coif",
+            "setId": null,
+            "bonuses": [
+              {
+                "stat": "defFlat",
+                "label": "DEF",
+                "suffix": "",
+                "value": 405.13
+              }
+            ],
+            "keptAtPrestige": null,
+            "locked": false,
+            "durabilityMax": 100000,
+            "durability": 100000,
+            "wearRemainder": 0,
+            "durabilityWarned": false
+          },
+          "sold": false
+        },
+        "epic_3": {
+          "item": {
+            "id": 1791324245985,
+            "slot": "boots",
+            "rarity": "epic",
+            "name": "Sanctified Footguards",
+            "setId": null,
+            "bonuses": [
+              {
+                "stat": "defFlat",
+                "label": "DEF",
+                "suffix": "",
+                "value": 225.38
+              }
+            ],
+            "keptAtPrestige": null,
+            "locked": false,
+            "durabilityMax": 100000,
+            "durability": 100000,
+            "wearRemainder": 0,
+            "durabilityWarned": false
+          },
+          "sold": false
+        }
+      },
+      "exchangeRefreshAt": 1791346476409,
+      "bounties": [
+        {
+          "templateId": "dodge",
+          "label": "Dodge %d Attacks",
+          "type": "dodge",
+          "stat": "dodges",
+          "target": 28,
+          "progress": 28,
+          "completed": true,
+          "claimedAt": 1791325021209,
+          "startAt": 0,
+          "carriedProgress": 28,
+          "rewards": {
+            "gold": 1236,
+            "materials": 0,
+            "favor": 0,
+            "essence": 1,
+            "reputation": 1
+          }
+        },
+        {
+          "templateId": "crit",
+          "label": "Land %d Critical Hits",
+          "type": "crit",
+          "stat": "critsLanded",
+          "target": 19,
+          "progress": 19,
+          "completed": true,
+          "claimedAt": 1791325021209,
+          "startAt": 0,
+          "carriedProgress": 19,
+          "rewards": {
+            "gold": 1854,
+            "materials": 0,
+            "favor": 1,
+            "essence": 0,
+            "reputation": 1
+          }
+        },
+        {
+          "templateId": "prestige",
+          "label": "Reach Boss %d",
+          "type": "prestige",
+          "stat": "bossLevelReached",
+          "target": 24,
+          "progress": 24,
+          "completed": true,
+          "claimedAt": 1791325021209,
+          "startAt": 0,
+          "carriedProgress": 24,
+          "rewards": {
+            "gold": 2472,
+            "materials": 0,
+            "favor": 0,
+            "essence": 2,
+            "reputation": 1
+          }
+        }
+      ],
+      "bountyResetAt": 1791411276409,
+      "bountyStats": {
+        "dismantles": 0,
+        "dodges": 0,
+        "bossesKilled": 0,
+        "bindsMade": 0,
+        "autoHits": 0,
+        "itemsCrafted": 0,
+        "clicksLanded": 0,
+        "critsLanded": 0,
+        "goldEarned": 0,
+        "bossLevelReached": 0,
+        "blocksSurvived": 0,
+        "blocksLanded": 0,
+        "thornsDamageDealt": 0,
+        "dodgeHealsLanded": 0,
+        "lifestealHealed": 0
+      },
+      "harvests": {
+        "seeds": [],
+        "plots": [],
+        "lastAutoHarvest": 0
+      },
+      "harvestUpgrades": {
+        "slots2": false,
+        "slots3": false,
+        "slots4": false,
+        "autoHarvest1": false,
+        "autoHarvest2": false,
+        "goldBoost1": false,
+        "materialBoost1": false
+      },
+      "harvestBossesEncountered": [
+        5,
+        8,
+        11,
+        12,
+        3,
+        6,
+        16,
+        17,
+        19,
+        22,
+        4,
+        13,
+        15,
+        26,
+        27,
+        29,
+        28,
+        30,
+        7,
+        18,
+        20,
+        24,
+        31,
+        32,
+        9,
+        10,
+        35,
+        36,
+        47,
+        23,
+        39,
+        40,
+        42,
+        53,
+        60,
+        37,
+        44,
+        45,
+        48,
+        50,
+        61,
+        62,
+        66,
+        68,
+        70,
+        76,
+        2,
+        21,
+        55,
+        71,
+        72,
+        77,
+        80,
+        90,
+        93,
+        94
+      ]
+    },
+    "clock": 1791327311009,
+    "stateValid": true
+  },
+  {
+    "seed": 93,
+    "milestones": [
+      {
+        "prestige": 0,
+        "boss": 20,
+        "minutes": 4,
+        "deaths": 2,
+        "gold": 309,
+        "companion": 0,
+        "academyRenown": 0
+      },
+      {
+        "prestige": 1,
+        "boss": 25,
+        "minutes": 7,
+        "deaths": 2,
+        "gold": 642,
+        "companion": 0,
+        "academyRenown": 0
+      },
+      {
+        "prestige": 2,
+        "boss": 32,
+        "minutes": 14,
+        "deaths": 15,
+        "gold": 3355,
+        "companion": 0,
+        "academyRenown": 0
+      },
+      {
+        "prestige": 3,
+        "boss": 41,
+        "minutes": 19,
+        "deaths": 15,
+        "gold": 6643,
+        "companion": 0,
+        "academyRenown": 0
+      },
+      {
+        "prestige": 4,
+        "boss": 52,
+        "minutes": 37,
+        "deaths": 27,
+        "gold": 27439,
+        "companion": 4,
+        "academyRenown": 0
+      },
+      {
+        "prestige": 5,
+        "boss": 65,
+        "minutes": 38,
+        "deaths": 27,
+        "gold": 22306,
+        "companion": 5,
+        "academyRenown": 0
+      },
+      {
+        "prestige": 6,
+        "boss": 80,
+        "minutes": 42,
+        "deaths": 27,
+        "gold": 53899,
+        "companion": 6,
+        "academyRenown": 0
+      },
+      {
+        "prestige": 7,
+        "boss": 97,
+        "minutes": 46,
+        "deaths": 27,
+        "gold": 188461,
+        "companion": 8,
+        "academyRenown": 0
+      }
+    ],
+    "dungeonReadyState": {
+      "gold": 22306,
+      "essence": 1,
+      "materials": 2,
+      "prestigeCount": 5,
+      "zoneLootClaims": [
+        3,
+        5,
+        10,
+        15,
+        20,
+        25,
+        30,
+        35,
+        40,
+        45,
+        50,
+        55,
+        60
+      ],
+      "onboarding": {
+        "unlocked": [
+          "harvest",
+          "prestige",
+          "craft",
+          "exchange",
+          "sets",
+          "academy",
+          "companion",
+          "rival",
+          "dungeon",
+          "escape"
+        ],
+        "seen": []
+      },
+      "autoRepair": {
+        "owned": false,
+        "enabled": false
+      },
+      "escapeSigils": 0,
+      "summon": {
+        "unlocked": false,
+        "active": null,
+        "lastPulseAt": 0
+      },
+      "blueprints": {
+        "common": 4,
+        "rare": 3,
+        "epic": 4,
+        "legendary": 0
+      },
+      "resources": {
+        "herbs": 0,
+        "supplies": 64
+      },
+      "gardenBestLevel": 52,
+      "rival": {
+        "met": false,
+        "level": 1,
+        "relationship": "neutral",
+        "respect": 0,
+        "chapter": 0,
+        "meetings": 0,
+        "wins": 0,
+        "losses": 0,
+        "since": 421,
+        "dailyCount": 0,
+        "resetAt": 1791410647659,
+        "pending": {
+          "level": 8,
+          "gold": 188,
+          "id": 1
+        },
+        "duel": null,
+        "quest": null,
+        "journal": []
+      },
+      "companions": {
+        "active": "fox",
+        "creatures": [
+          {
+            "type": "fox",
+            "befriended": true,
+            "level": 5,
+            "xp": 24,
+            "traits": [
+              "hunter"
+            ],
+            "pulse": 5,
+            "lastAbilityAt": 1791326545659
+          },
+          {
+            "type": "wolf",
+            "befriended": false,
+            "level": 1,
+            "xp": 0,
+            "traits": [],
+            "pulse": 0,
+            "lastAbilityAt": 0
+          },
+          {
+            "type": "turtle",
+            "befriended": false,
+            "level": 1,
+            "xp": 0,
+            "traits": [],
+            "pulse": 0,
+            "lastAbilityAt": 0
+          }
+        ],
+        "feedCount": 0,
+        "feedResetAt": 1791410647659
+      },
+      "dungeon": {
+        "run": null,
+        "best": 0,
+        "tokens": 0,
+        "mastery": 0,
+        "milestones": []
+      },
+      "cropJournal": {
+        "wheat": 12,
+        "herb": 8,
+        "crystal": 11,
+        "oats": 14
+      },
+      "caretaker": {
+        "owned": false,
+        "enabled": false,
+        "remaining": 0,
+        "resetAt": 0
+      },
+      "campActive": false,
+      "checkpointLevel": 61,
+      "merchantReputation": 3,
+      "exchangeRequests": [],
+      "blueprintFragments": {
+        "common": 11,
+        "rare": 0,
+        "epic": 0,
+        "legendary": 0
+      },
+      "academySigils": 5,
+      "bossLevel": 65,
+      "bossHp": 187415,
+      "bossMaxHp": 187415,
+      "playerHp": 438,
+      "playerMaxHp": 438,
+      "stats": {
+        "hp": 24,
+        "atk": 25,
+        "str": 21,
+        "spd": 23,
+        "def": 24,
+        "critChance": 20,
+        "critMult": 20
+      },
+      "equipped": {
+        "weapon": {
+          "id": 1791324247638,
+          "slot": "weapon",
+          "rarity": "epic",
+          "name": "The Sable Throne Fang",
+          "setId": "prospector",
+          "bonuses": [
+            {
+              "stat": "atkPct",
+              "label": "ATK",
+              "suffix": "%",
+              "value": 1180.21
+            },
+            {
+              "stat": "critMultFlat",
+              "label": "Crit Dmg",
+              "suffix": "x",
+              "value": 11.42
+            }
+          ],
+          "keptAtPrestige": null,
+          "locked": false,
+          "durabilityMax": 100000,
+          "durability": 99806,
+          "wearRemainder": 0,
+          "durabilityWarned": false
+        },
+        "helmet": {
+          "id": 1791324247639,
+          "slot": "helmet",
+          "rarity": "epic",
+          "name": "The Hollow Reach Helm",
+          "setId": null,
+          "bonuses": [
+            {
+              "stat": "defFlat",
+              "label": "DEF",
+              "suffix": "",
+              "value": 575.85
+            }
+          ],
+          "keptAtPrestige": null,
+          "locked": false,
+          "durabilityMax": 100000,
+          "durability": 99990,
+          "wearRemainder": 0.2921840712895567,
+          "durabilityWarned": false
+        },
+        "necklace": {
+          "id": 1791324247641,
+          "slot": "necklace",
+          "rarity": "epic",
+          "name": "The Iron Expanse Pendant",
+          "setId": null,
+          "bonuses": [
+            {
+              "stat": "critChanceFlat",
+              "label": "Crit Chance",
+              "suffix": "%",
+              "value": 480.04
+            }
+          ],
+          "keptAtPrestige": null,
+          "locked": false,
+          "durabilityMax": 100000,
+          "durability": 99872,
+          "wearRemainder": 0,
+          "durabilityWarned": false
+        },
+        "chest": {
+          "id": 1791324247646,
+          "slot": "chest",
+          "rarity": "epic",
+          "name": "The Wyrmfall Depths Breastplate",
+          "setId": null,
+          "bonuses": [
+            {
+              "stat": "defFlat",
+              "label": "DEF",
+              "suffix": "",
+              "value": 855.96
+            }
+          ],
+          "keptAtPrestige": null,
+          "locked": false,
+          "durabilityMax": 100000,
+          "durability": 99999,
+          "wearRemainder": 0.9178082191780821,
+          "durabilityWarned": false
+        },
+        "shield": {
+          "id": 1791324247441,
+          "slot": "shield",
+          "rarity": "rare",
+          "name": "The Sable Throne Bulwark",
+          "setId": null,
+          "bonuses": [
+            {
+              "stat": "defFlat",
+              "label": "DEF",
+              "suffix": "",
+              "value": 155.54
+            },
+            {
+              "stat": "blockChance",
+              "label": "Block Chance",
+              "suffix": "%",
+              "value": 16
+            }
+          ],
+          "keptAtPrestige": 2,
+          "locked": false,
+          "durabilityMax": 75000,
+          "durability": 74830,
+          "wearRemainder": 0.18353608079683892,
+          "durabilityWarned": false,
+          "bindLevel": 2
+        },
+        "legs": {
+          "id": 1791324247628,
+          "slot": "legs",
+          "rarity": "rare",
+          "name": "The Wyrmfall Depths Greaves",
+          "setId": null,
+          "bonuses": [
+            {
+              "stat": "defFlat",
+              "label": "DEF",
+              "suffix": "",
+              "value": 218.74
+            }
+          ],
+          "keptAtPrestige": null,
+          "locked": false,
+          "durabilityMax": 75000,
+          "durability": 74977,
+          "wearRemainder": 0.19885362676392426,
+          "durabilityWarned": false
+        },
+        "ring": {
+          "id": 1791324247631,
+          "slot": "ring",
+          "rarity": "rare",
+          "name": "The Bramblewood Road Band",
+          "setId": "vanguard",
+          "bonuses": [
+            {
+              "stat": "critChanceFlat",
+              "label": "Crit Chance",
+              "suffix": "%",
+              "value": 107.11
+            }
+          ],
+          "keptAtPrestige": null,
+          "locked": false,
+          "durabilityMax": 75000,
+          "durability": 74735,
+          "wearRemainder": 0,
+          "durabilityWarned": false
+        },
+        "boots": {
+          "id": 1791324247634,
+          "slot": "boots",
+          "rarity": "epic",
+          "name": "The Cinderfall Bastion Treads",
+          "setId": "stalker",
+          "bonuses": [
+            {
+              "stat": "defFlat",
+              "label": "DEF",
+              "suffix": "",
+              "value": 442.4
+            }
+          ],
+          "keptAtPrestige": null,
+          "locked": false,
+          "durabilityMax": 100000,
+          "durability": 99986,
+          "wearRemainder": 0.8492526236827538,
+          "durabilityWarned": false
+        }
+      },
+      "inventory": [],
+      "legacy": [
+        {
+          "id": 1791324247421,
+          "slot": "weapon",
+          "rarity": "rare",
+          "name": "Frostgnaw's Blade",
+          "setId": "vanguard",
+          "bonuses": [
+            {
+              "stat": "atkPct",
+              "label": "ATK",
+              "suffix": "%",
+              "value": 178.95
+            },
+            {
+              "stat": "critMultFlat",
+              "label": "Crit Dmg",
+              "suffix": "x",
+              "value": 1.99
+            },
+            {
+              "stat": "doubleHitChance",
+              "label": "Double Hit",
+              "suffix": "%",
+              "value": 24
+            }
+          ],
+          "keptAtPrestige": 1,
+          "locked": false,
+          "durabilityMax": 75000,
+          "durability": 54930,
+          "wearRemainder": 0,
+          "durabilityWarned": false,
+          "bindLevel": 3
+        },
+        {
+          "id": 1791324247498,
+          "slot": "legs",
+          "rarity": "rare",
+          "name": "The Cinderfall Bastion Greaves",
+          "setId": "vanguard",
+          "bonuses": [
+            {
+              "stat": "defFlat",
+              "label": "DEF",
+              "suffix": "",
+              "value": 200.74
+            }
+          ],
+          "keptAtPrestige": 3,
+          "locked": false,
+          "durabilityMax": 75000,
+          "durability": 73354,
+          "wearRemainder": 0.1340628577531635,
+          "durabilityWarned": false
+        },
+        {
+          "id": 1791324247613,
+          "slot": "weapon",
+          "rarity": "epic",
+          "name": "The Hollow Reach Fang",
+          "setId": "prospector",
+          "bonuses": [
+            {
+              "stat": "atkPct",
+              "label": "ATK",
+              "suffix": "%",
+              "value": 1079.91
+            },
+            {
+              "stat": "critMultFlat",
+              "label": "Crit Dmg",
+              "suffix": "x",
+              "value": 17.14
+            },
+            {
+              "stat": "doubleHitChance",
+              "label": "Double Hit",
+              "suffix": "%",
+              "value": 8
+            }
+          ],
+          "keptAtPrestige": 5,
+          "locked": false,
+          "durabilityMax": 100000,
+          "durability": 99641,
+          "wearRemainder": 0,
+          "durabilityWarned": false,
+          "bindLevel": 1
+        },
+        {
+          "id": 1791324247533,
+          "slot": "chest",
+          "rarity": "epic",
+          "name": "Runic Hauberk",
+          "setId": null,
+          "bonuses": [
+            {
+              "stat": "defFlat",
+              "label": "DEF",
+              "suffix": "",
+              "value": 563.08
+            }
+          ],
+          "keptAtPrestige": 4,
+          "locked": false,
+          "durabilityMax": 100000,
+          "durability": 98678,
+          "wearRemainder": 0.5464834705859932,
+          "durabilityWarned": false
+        }
+      ],
+      "overflow": [],
+      "autoOwned": true,
+      "autoActive": true,
+      "lastClickTs": 0,
+      "lastSave": 1791324247459,
+      "gcTimerMs": 0,
+      "gcFailedOnce": false,
+      "roundNumber": 1,
+      "pbBossLevel": 65,
+      "atkTimerMs": 0,
+      "perks": {
+        "invSlots": 0,
+        "legacySlots": 0,
+        "bindCostReduction": 0,
+        "goldBonusPct": 0,
+        "dropBonusPct": 0,
+        "extraHp": 5,
+        "bossHpReduction": 0
+      },
+      "favor": 1,
+      "academy": {
+        "unlocked": true,
+        "adventurers": [
+          {
+            "id": 1791324247565,
+            "name": "Rowan",
+            "level": 1,
+            "xp": 0,
+            "gear": {
+              "tool": 0,
+              "armor": 0
+            },
+            "busy": null,
+            "injuredUntil": null,
+            "encounter": null,
+            "talents": [],
+            "role": "scout",
+            "abilities": [],
+            "questProgress": 0,
+            "signature": false
+          },
+          {
+            "id": 1791324247568,
+            "name": "Yorick",
+            "level": 1,
+            "xp": 0,
+            "gear": {
+              "tool": 0,
+              "armor": 0
+            },
+            "busy": null,
+            "injuredUntil": null,
+            "encounter": null,
+            "talents": [],
+            "role": "guardian",
+            "abilities": [],
+            "questProgress": 0,
+            "signature": false
+          }
+        ],
+        "renown": 0,
+        "introSeen": false,
+        "expeditions": [
+          {
+            "id": 1791324247567,
+            "destination": "woods",
+            "fragmentRarity": "common",
+            "team": [
+              1791324247565
+            ],
+            "pack": {
+              "herbs": 0,
+              "provisions": 2,
+              "tools": 0,
+              "gold": 0
+            },
+            "initialProvisions": 3,
+            "purseCost": 4096,
+            "stage": 1,
+            "readyAt": 1791326882659,
+            "startedAt": 1791325682659,
+            "paths": [
+              "safe"
+            ],
+            "loot": {
+              "gold": 39001,
+              "materials": 1,
+              "fragments": 0,
+              "sigils": 0
+            },
+            "baseGold": 204840,
+            "baseMaterials": 1
+          }
+        ],
+        "discoveries": [
+          "woods",
+          "woods-0"
+        ],
+        "relics": [],
+        "routes": [
+          "woods-safe"
+        ]
+      },
+      "lifetimeMaterials": 107,
+      "exchangeStock": {
+        "common": {
+          "item": {
+            "id": 1791324247485,
+            "slot": "ring",
+            "rarity": "common",
+            "name": "Cracked Band",
+            "setId": "prospector",
+            "bonuses": [
+              {
+                "stat": "spdFlat",
+                "label": "Speed",
+                "suffix": "/s",
+                "value": 2.08
+              }
+            ],
+            "keptAtPrestige": null,
+            "locked": false,
+            "durabilityMax": 50000,
+            "durability": 50000,
+            "wearRemainder": 0,
+            "durabilityWarned": false
+          },
+          "sold": false
+        },
+        "rare": {
+          "item": {
+            "id": 1791324247486,
+            "slot": "weapon",
+            "rarity": "rare",
+            "name": "Steel Fang",
+            "setId": null,
+            "bonuses": [
+              {
+                "stat": "atkPct",
+                "label": "ATK",
+                "suffix": "%",
+                "value": 251.43
+              },
+              {
+                "stat": "critMultFlat",
+                "label": "Crit Dmg",
+                "suffix": "x",
+                "value": 2.52
+              }
+            ],
+            "keptAtPrestige": null,
+            "locked": false,
+            "durabilityMax": 75000,
+            "durability": 75000,
+            "wearRemainder": 0,
+            "durabilityWarned": false
+          },
+          "sold": false
+        },
+        "epic": {
+          "item": {
+            "id": 1791324247487,
+            "slot": "legs",
+            "rarity": "epic",
+            "name": "Runic Chausses",
+            "setId": "prospector",
+            "bonuses": [
+              {
+                "stat": "defFlat",
+                "label": "DEF",
+                "suffix": "",
+                "value": 254.11
+              }
+            ],
+            "keptAtPrestige": null,
+            "locked": false,
+            "durabilityMax": 100000,
+            "durability": 100000,
+            "wearRemainder": 0,
+            "durabilityWarned": false
+          },
+          "sold": false
+        },
+        "legendary": {
+          "item": {
+            "id": 1791324247488,
+            "slot": "necklace",
+            "rarity": "legendary",
+            "name": "Ascendant Torc",
+            "setId": "stalker",
+            "bonuses": [
+              {
+                "stat": "dodgeFlat",
+                "label": "Dodge",
+                "suffix": "%",
+                "value": 494.56
+              }
+            ],
+            "keptAtPrestige": null,
+            "locked": false,
+            "awakening": {
+              "isAwakened": false,
+              "stat": "lifestealHealed",
+              "milestone": "Heal %d HP with Lifesteal",
+              "target": 12000,
+              "progress": 0,
+              "secondaryStat": {
+                "stat": "lifestealPct",
+                "label": "Lifesteal",
+                "suffix": "%",
+                "baseValue": 12
+              }
+            },
+            "durabilityMax": 200000,
+            "durability": 200000,
+            "wearRemainder": 0,
+            "durabilityWarned": false
+          },
+          "sold": false
+        }
+      },
+      "exchangeRefreshAt": 1791346547859,
+      "bounties": [
+        {
+          "templateId": "dodge",
+          "label": "Dodge %d Attacks",
+          "type": "dodge",
+          "stat": "dodges",
+          "target": 32,
+          "progress": 32,
+          "completed": true,
+          "claimedAt": 1791325147659,
+          "startAt": 0,
+          "carriedProgress": 32,
+          "rewards": {
+            "gold": 5808,
+            "materials": 0,
+            "favor": 0,
+            "essence": 1,
+            "reputation": 1
+          }
+        },
+        {
+          "templateId": "crit",
+          "label": "Land %d Critical Hits",
+          "type": "crit",
+          "stat": "critsLanded",
+          "target": 21,
+          "progress": 21,
+          "completed": true,
+          "claimedAt": 1791324972659,
+          "startAt": 0,
+          "carriedProgress": 21,
+          "rewards": {
+            "gold": 8712,
+            "materials": 0,
+            "favor": 1,
+            "essence": 0,
+            "reputation": 1
+          }
+        },
+        {
+          "templateId": "prestige",
+          "label": "Reach Boss %d",
+          "type": "prestige",
+          "stat": "bossLevelReached",
+          "target": 36,
+          "progress": 36,
+          "completed": true,
+          "claimedAt": 1791325347659,
+          "startAt": 0,
+          "carriedProgress": 36,
+          "rewards": {
+            "gold": 11616,
+            "materials": 0,
+            "favor": 0,
+            "essence": 2,
+            "reputation": 1
+          }
+        }
+      ],
+      "bountyResetAt": 1791411347859,
+      "bountyStats": {
+        "dismantles": 9,
+        "dodges": 0,
+        "bossesKilled": 64,
+        "bindsMade": 2,
+        "autoHits": 301,
+        "itemsCrafted": 1,
+        "clicksLanded": 156,
+        "critsLanded": 316,
+        "goldEarned": 203337,
+        "bossLevelReached": 65,
+        "blocksSurvived": 0,
+        "blocksLanded": 0,
+        "thornsDamageDealt": 0,
+        "dodgeHealsLanded": 0,
+        "lifestealHealed": 0
+      },
+      "harvests": {
+        "seeds": [
+          {
+            "id": 1791324247621,
+            "templateId": "herb",
+            "obtainedAt": 1791326474459
+          },
+          {
+            "id": 1791324247626,
+            "templateId": "oats",
+            "obtainedAt": 1791326488859
+          },
+          {
+            "id": 1791324247629,
+            "templateId": "herb",
+            "obtainedAt": 1791326497659
+          },
+          {
+            "id": 1791324247630,
+            "templateId": "crystal",
+            "obtainedAt": 1791326498859
+          },
+          {
+            "id": 1791324247635,
+            "templateId": "wheat",
+            "obtainedAt": 1791326508659
+          },
+          {
+            "id": 1791324247636,
+            "templateId": "oats",
+            "obtainedAt": 1791326509659
+          },
+          {
+            "id": 1791324247637,
+            "templateId": "wheat",
+            "obtainedAt": 1791326512259
+          },
+          {
+            "id": 1791324247640,
+            "templateId": "wheat",
+            "obtainedAt": 1791326522059
+          },
+          {
+            "id": 1791324247644,
+            "templateId": "crystal",
+            "obtainedAt": 1791326531259
+          },
+          {
+            "id": 1791324247647,
+            "templateId": "herb",
+            "obtainedAt": 1791326538259
+          }
+        ],
+        "plots": [
+          {
+            "id": 1791324247643,
+            "templateId": "wheat",
+            "plantedAt": 1791326527659,
+            "harvestedAt": null
+          },
+          {
+            "id": 1791324247645,
+            "templateId": "wheat",
+            "plantedAt": 1791326537659,
+            "harvestedAt": null
+          }
+        ],
+        "lastAutoHarvest": 0
+      },
+      "harvestUpgrades": {
+        "slots2": false,
+        "slots3": false,
+        "slots4": false,
+        "autoHarvest1": false,
+        "autoHarvest2": false,
+        "goldBoost1": false,
+        "materialBoost1": false
+      },
+      "harvestBossesEncountered": [
+        2,
+        7,
+        10,
+        13,
+        1,
+        3,
+        4,
+        16,
+        17,
+        18,
+        20,
+        22,
+        28,
+        26,
+        29,
+        15,
+        27,
+        32,
+        36,
+        37,
+        39,
+        30,
+        31,
+        34,
+        38,
+        41,
+        45,
+        12,
+        40,
+        44,
+        52,
+        57,
+        60
+      ]
+    },
+    "minutes": 46,
+    "prestige": 8,
+    "boss": 1,
+    "deaths": 27,
+    "academyWins": 0,
+    "academyRenown": 0,
+    "totalBounties": 3,
+    "items": 8,
+    "journal": {
+      "wheat": 14,
+      "herb": 8,
+      "crystal": 11,
+      "oats": 14
+    },
+    "endState": {
+      "gold": 0,
+      "essence": 11,
+      "materials": 8,
+      "prestigeCount": 8,
+      "zoneLootClaims": [],
+      "onboarding": {
+        "unlocked": [
+          "harvest",
+          "prestige",
+          "craft",
+          "exchange",
+          "sets",
+          "academy",
+          "companion",
+          "rival",
+          "dungeon",
+          "escape",
+          "caretaker"
+        ],
+        "seen": []
+      },
+      "autoRepair": {
+        "owned": false,
+        "enabled": false
+      },
+      "escapeSigils": 0,
+      "summon": {
+        "unlocked": false,
+        "active": null,
+        "lastPulseAt": 0
+      },
+      "blueprints": {
+        "common": 3,
+        "rare": 10,
+        "epic": 7,
+        "legendary": 0
+      },
+      "resources": {
+        "herbs": 0,
+        "supplies": 64
+      },
+      "gardenBestLevel": 97,
+      "rival": {
+        "met": false,
+        "level": 1,
+        "relationship": "neutral",
+        "respect": 0,
+        "chapter": 0,
+        "meetings": 0,
+        "wins": 0,
+        "losses": 0,
+        "since": 596,
+        "dailyCount": 0,
+        "resetAt": 1791410647659,
+        "pending": {
+          "level": 8,
+          "gold": 188,
+          "id": 1
+        },
+        "duel": null,
+        "quest": null,
+        "journal": []
+      },
+      "companions": {
+        "active": "fox",
+        "creatures": [
+          {
+            "type": "fox",
+            "befriended": true,
+            "level": 8,
+            "xp": 19,
+            "traits": [
+              "hunter",
+              "hunter"
+            ],
+            "pulse": 1,
+            "lastAbilityAt": 1791327031459
+          },
+          {
+            "type": "wolf",
+            "befriended": false,
+            "level": 1,
+            "xp": 0,
+            "traits": [],
+            "pulse": 0,
+            "lastAbilityAt": 0
+          },
+          {
+            "type": "turtle",
+            "befriended": false,
+            "level": 1,
+            "xp": 0,
+            "traits": [],
+            "pulse": 0,
+            "lastAbilityAt": 0
+          }
+        ],
+        "feedCount": 0,
+        "feedResetAt": 1791410647659
+      },
+      "dungeon": {
+        "run": null,
+        "best": 0,
+        "tokens": 0,
+        "mastery": 0,
+        "milestones": []
+      },
+      "cropJournal": {
+        "wheat": 14,
+        "herb": 8,
+        "crystal": 11,
+        "oats": 14
+      },
+      "caretaker": {
+        "owned": false,
+        "enabled": false,
+        "remaining": 0,
+        "resetAt": 0
+      },
+      "campActive": false,
+      "checkpointLevel": 1,
+      "merchantReputation": 3,
+      "exchangeRequests": [],
+      "blueprintFragments": {
+        "common": 12,
+        "rare": 0,
+        "epic": 0,
+        "legendary": 0
+      },
+      "academySigils": 5,
+      "bossLevel": 1,
+      "bossHp": 188,
+      "bossMaxHp": 188,
+      "playerHp": 221,
+      "playerMaxHp": 221,
+      "stats": {
+        "hp": 0,
+        "atk": 0,
+        "str": 0,
+        "spd": 0,
+        "def": 0,
+        "critChance": 0,
+        "critMult": 0
+      },
+      "equipped": {
+        "weapon": {
+          "id": 1791324247727,
+          "slot": "weapon",
+          "rarity": "epic",
+          "name": "The Iron Expanse Fang",
+          "setId": null,
+          "bonuses": [
+            {
+              "stat": "atkPct",
+              "label": "ATK",
+              "suffix": "%",
+              "value": 2520.37
+            },
+            {
+              "stat": "critMultFlat",
+              "label": "Crit Dmg",
+              "suffix": "x",
+              "value": 11.6
+            }
+          ],
+          "keptAtPrestige": 8,
+          "locked": false,
+          "durabilityMax": 100000,
+          "durability": 99874,
+          "wearRemainder": 0,
+          "durabilityWarned": false
+        },
+        "helmet": null,
+        "necklace": null,
+        "chest": {
+          "id": 1791324247533,
+          "slot": "chest",
+          "rarity": "epic",
+          "name": "Runic Hauberk",
+          "setId": null,
+          "bonuses": [
+            {
+              "stat": "defFlat",
+              "label": "DEF",
+              "suffix": "",
+              "value": 563.08
+            }
+          ],
+          "keptAtPrestige": 4,
+          "locked": false,
+          "durabilityMax": 100000,
+          "durability": 98483,
+          "wearRemainder": 0.9449909133557989,
+          "durabilityWarned": false
+        },
+        "shield": {
+          "id": 1791324247675,
+          "slot": "shield",
+          "rarity": "epic",
+          "name": "The Bramblewood Road Bulwark",
+          "setId": null,
+          "bonuses": [
+            {
+              "stat": "defFlat",
+              "label": "DEF",
+              "suffix": "",
+              "value": 1073.22
+            },
+            {
+              "stat": "blockChance",
+              "label": "Block Chance",
+              "suffix": "%",
+              "value": 8
+            }
+          ],
+          "keptAtPrestige": 7,
+          "locked": false,
+          "durabilityMax": 100000,
+          "durability": 99853,
+          "wearRemainder": 0.4521374361992143,
+          "durabilityWarned": false,
+          "bindLevel": 1
+        },
+        "legs": {
+          "id": 1791324247498,
+          "slot": "legs",
+          "rarity": "rare",
+          "name": "The Cinderfall Bastion Greaves",
+          "setId": "vanguard",
+          "bonuses": [
+            {
+              "stat": "defFlat",
+              "label": "DEF",
+              "suffix": "",
+              "value": 200.74
+            }
+          ],
+          "keptAtPrestige": 3,
+          "locked": false,
+          "durabilityMax": 75000,
+          "durability": 73344,
+          "wearRemainder": 0.4502476756111692,
+          "durabilityWarned": false
+        },
+        "ring": null,
+        "boots": null
+      },
+      "inventory": [],
+      "legacy": [
+        {
+          "id": 1791324247421,
+          "slot": "weapon",
+          "rarity": "rare",
+          "name": "Frostgnaw's Blade",
+          "setId": "vanguard",
+          "bonuses": [
+            {
+              "stat": "atkPct",
+              "label": "ATK",
+              "suffix": "%",
+              "value": 178.95
+            },
+            {
+              "stat": "critMultFlat",
+              "label": "Crit Dmg",
+              "suffix": "x",
+              "value": 1.99
+            },
+            {
+              "stat": "doubleHitChance",
+              "label": "Double Hit",
+              "suffix": "%",
+              "value": 24
+            }
+          ],
+          "keptAtPrestige": 1,
+          "locked": false,
+          "durabilityMax": 75000,
+          "durability": 54930,
+          "wearRemainder": 0,
+          "durabilityWarned": false,
+          "bindLevel": 3
+        },
+        {
+          "id": 1791324247613,
+          "slot": "weapon",
+          "rarity": "epic",
+          "name": "The Hollow Reach Fang",
+          "setId": "prospector",
+          "bonuses": [
+            {
+              "stat": "atkPct",
+              "label": "ATK",
+              "suffix": "%",
+              "value": 1079.91
+            },
+            {
+              "stat": "critMultFlat",
+              "label": "Crit Dmg",
+              "suffix": "x",
+              "value": 17.14
+            },
+            {
+              "stat": "doubleHitChance",
+              "label": "Double Hit",
+              "suffix": "%",
+              "value": 8
+            }
+          ],
+          "keptAtPrestige": 5,
+          "locked": false,
+          "durabilityMax": 100000,
+          "durability": 99641,
+          "wearRemainder": 0,
+          "durabilityWarned": false,
+          "bindLevel": 1
+        },
+        {
+          "id": 1791324247441,
+          "slot": "shield",
+          "rarity": "rare",
+          "name": "The Sable Throne Bulwark",
+          "setId": null,
+          "bonuses": [
+            {
+              "stat": "defFlat",
+              "label": "DEF",
+              "suffix": "",
+              "value": 155.54
+            },
+            {
+              "stat": "blockChance",
+              "label": "Block Chance",
+              "suffix": "%",
+              "value": 16
+            }
+          ],
+          "keptAtPrestige": 2,
+          "locked": false,
+          "durabilityMax": 75000,
+          "durability": 74727,
+          "wearRemainder": 0.41357874085528706,
+          "durabilityWarned": false,
+          "bindLevel": 2
+        },
+        {
+          "id": 1791324247638,
+          "slot": "weapon",
+          "rarity": "epic",
+          "name": "The Sable Throne Fang",
+          "setId": "prospector",
+          "bonuses": [
+            {
+              "stat": "atkPct",
+              "label": "ATK",
+              "suffix": "%",
+              "value": 1180.21
+            },
+            {
+              "stat": "critMultFlat",
+              "label": "Crit Dmg",
+              "suffix": "x",
+              "value": 11.42
+            },
+            {
+              "stat": "doubleHitChance",
+              "label": "Double Hit",
+              "suffix": "%",
+              "value": 16
+            }
+          ],
+          "keptAtPrestige": 6,
+          "locked": false,
+          "durabilityMax": 100000,
+          "durability": 95769,
+          "wearRemainder": 0,
+          "durabilityWarned": false,
+          "bindLevel": 2
+        }
+      ],
+      "overflow": [],
+      "autoOwned": false,
+      "autoActive": false,
+      "lastClickTs": 0,
+      "lastSave": 1791324247459,
+      "gcTimerMs": 0,
+      "gcFailedOnce": false,
+      "roundNumber": 1,
+      "pbBossLevel": 1,
+      "atkTimerMs": 0,
+      "perks": {
+        "invSlots": 0,
+        "legacySlots": 0,
+        "bindCostReduction": 0,
+        "goldBonusPct": 0,
+        "dropBonusPct": 0,
+        "extraHp": 8,
+        "bossHpReduction": 0
+      },
+      "favor": 1,
+      "academy": {
+        "unlocked": true,
+        "adventurers": [
+          {
+            "id": 1791324247565,
+            "name": "Rowan",
+            "level": 1,
+            "xp": 0,
+            "gear": {
+              "tool": 0,
+              "armor": 0
+            },
+            "busy": null,
+            "injuredUntil": null,
+            "encounter": null,
+            "talents": [],
+            "role": "scout",
+            "abilities": [],
+            "questProgress": 0,
+            "signature": false
+          },
+          {
+            "id": 1791324247568,
+            "name": "Yorick",
+            "level": 1,
+            "xp": 0,
+            "gear": {
+              "tool": 0,
+              "armor": 0
+            },
+            "busy": null,
+            "injuredUntil": null,
+            "encounter": null,
+            "talents": [],
+            "role": "guardian",
+            "abilities": [],
+            "questProgress": 0,
+            "signature": false
+          },
+          {
+            "id": 1791324247725,
+            "name": "Corvin",
+            "level": 1,
+            "xp": 0,
+            "gear": {
+              "tool": 0,
+              "armor": 0
+            },
+            "busy": null,
+            "injuredUntil": null,
+            "encounter": null,
+            "talents": [],
+            "role": "scholar",
+            "abilities": [],
+            "questProgress": 0,
+            "signature": false
+          },
+          {
+            "id": 1791324247732,
+            "name": "Wrenna",
+            "level": 1,
+            "xp": 0,
+            "gear": {
+              "tool": 0,
+              "armor": 0
+            },
+            "busy": null,
+            "injuredUntil": null,
+            "encounter": null,
+            "talents": [],
+            "role": "quartermaster",
+            "abilities": [],
+            "questProgress": 0,
+            "signature": false
+          }
+        ],
+        "renown": 0,
+        "introSeen": false,
+        "expeditions": [
+          {
+            "id": 1791324247567,
+            "destination": "woods",
+            "fragmentRarity": "common",
+            "team": [
+              1791324247565
+            ],
+            "pack": {
+              "herbs": 0,
+              "provisions": 1,
+              "tools": 0,
+              "gold": 0
+            },
+            "initialProvisions": 3,
+            "purseCost": 4096,
+            "stage": 2,
+            "readyAt": 1791327482659,
+            "startedAt": 1791325682659,
+            "paths": [
+              "safe",
+              "safe"
+            ],
+            "loot": {
+              "gold": 78002,
+              "materials": 2,
+              "fragments": 0,
+              "sigils": 0
+            },
+            "baseGold": 204840,
+            "baseMaterials": 1
+          }
+        ],
+        "discoveries": [
+          "woods",
+          "woods-0",
+          "woods-1"
+        ],
+        "relics": [],
+        "routes": [
+          "woods-safe"
+        ]
+      },
+      "lifetimeMaterials": 134,
+      "exchangeStock": {
+        "common": {
+          "item": {
+            "id": 1791324247485,
+            "slot": "ring",
+            "rarity": "common",
+            "name": "Cracked Band",
+            "setId": "prospector",
+            "bonuses": [
+              {
+                "stat": "spdFlat",
+                "label": "Speed",
+                "suffix": "/s",
+                "value": 2.08
+              }
+            ],
+            "keptAtPrestige": null,
+            "locked": false,
+            "durabilityMax": 50000,
+            "durability": 50000,
+            "wearRemainder": 0,
+            "durabilityWarned": false
+          },
+          "sold": false
+        },
+        "rare": {
+          "item": {
+            "id": 1791324247486,
+            "slot": "weapon",
+            "rarity": "rare",
+            "name": "Steel Fang",
+            "setId": null,
+            "bonuses": [
+              {
+                "stat": "atkPct",
+                "label": "ATK",
+                "suffix": "%",
+                "value": 251.43
+              },
+              {
+                "stat": "critMultFlat",
+                "label": "Crit Dmg",
+                "suffix": "x",
+                "value": 2.52
+              }
+            ],
+            "keptAtPrestige": null,
+            "locked": false,
+            "durabilityMax": 75000,
+            "durability": 75000,
+            "wearRemainder": 0,
+            "durabilityWarned": false
+          },
+          "sold": false
+        },
+        "epic": {
+          "item": {
+            "id": 1791324247487,
+            "slot": "legs",
+            "rarity": "epic",
+            "name": "Runic Chausses",
+            "setId": "prospector",
+            "bonuses": [
+              {
+                "stat": "defFlat",
+                "label": "DEF",
+                "suffix": "",
+                "value": 254.11
+              }
+            ],
+            "keptAtPrestige": null,
+            "locked": false,
+            "durabilityMax": 100000,
+            "durability": 100000,
+            "wearRemainder": 0,
+            "durabilityWarned": false
+          },
+          "sold": false
+        },
+        "legendary": {
+          "item": {
+            "id": 1791324247488,
+            "slot": "necklace",
+            "rarity": "legendary",
+            "name": "Ascendant Torc",
+            "setId": "stalker",
+            "bonuses": [
+              {
+                "stat": "dodgeFlat",
+                "label": "Dodge",
+                "suffix": "%",
+                "value": 494.56
+              }
+            ],
+            "keptAtPrestige": null,
+            "locked": false,
+            "awakening": {
+              "isAwakened": false,
+              "stat": "lifestealHealed",
+              "milestone": "Heal %d HP with Lifesteal",
+              "target": 12000,
+              "progress": 0,
+              "secondaryStat": {
+                "stat": "lifestealPct",
+                "label": "Lifesteal",
+                "suffix": "%",
+                "baseValue": 12
+              }
+            },
+            "durabilityMax": 200000,
+            "durability": 200000,
+            "wearRemainder": 0,
+            "durabilityWarned": false
+          },
+          "sold": false
+        }
+      },
+      "exchangeRefreshAt": 1791346547859,
+      "bounties": [
+        {
+          "templateId": "dodge",
+          "label": "Dodge %d Attacks",
+          "type": "dodge",
+          "stat": "dodges",
+          "target": 32,
+          "progress": 32,
+          "completed": true,
+          "claimedAt": 1791325147659,
+          "startAt": 0,
+          "carriedProgress": 32,
+          "rewards": {
+            "gold": 5808,
+            "materials": 0,
+            "favor": 0,
+            "essence": 1,
+            "reputation": 1
+          }
+        },
+        {
+          "templateId": "crit",
+          "label": "Land %d Critical Hits",
+          "type": "crit",
+          "stat": "critsLanded",
+          "target": 21,
+          "progress": 21,
+          "completed": true,
+          "claimedAt": 1791324972659,
+          "startAt": 0,
+          "carriedProgress": 21,
+          "rewards": {
+            "gold": 8712,
+            "materials": 0,
+            "favor": 1,
+            "essence": 0,
+            "reputation": 1
+          }
+        },
+        {
+          "templateId": "prestige",
+          "label": "Reach Boss %d",
+          "type": "prestige",
+          "stat": "bossLevelReached",
+          "target": 36,
+          "progress": 36,
+          "completed": true,
+          "claimedAt": 1791325347659,
+          "startAt": 0,
+          "carriedProgress": 36,
+          "rewards": {
+            "gold": 11616,
+            "materials": 0,
+            "favor": 0,
+            "essence": 2,
+            "reputation": 1
+          }
+        }
+      ],
+      "bountyResetAt": 1791411347859,
+      "bountyStats": {
+        "dismantles": 0,
+        "dodges": 0,
+        "bossesKilled": 0,
+        "bindsMade": 0,
+        "autoHits": 0,
+        "itemsCrafted": 0,
+        "clicksLanded": 0,
+        "critsLanded": 0,
+        "goldEarned": 0,
+        "bossLevelReached": 0,
+        "blocksSurvived": 0,
+        "blocksLanded": 0,
+        "thornsDamageDealt": 0,
+        "dodgeHealsLanded": 0,
+        "lifestealHealed": 0
+      },
+      "harvests": {
+        "seeds": [],
+        "plots": [],
+        "lastAutoHarvest": 0
+      },
+      "harvestUpgrades": {
+        "slots2": false,
+        "slots3": false,
+        "slots4": false,
+        "autoHarvest1": false,
+        "autoHarvest2": false,
+        "goldBoost1": false,
+        "materialBoost1": false
+      },
+      "harvestBossesEncountered": [
+        2,
+        7,
+        10,
+        13,
+        1,
+        3,
+        4,
+        16,
+        17,
+        18,
+        20,
+        22,
+        28,
+        26,
+        29,
+        15,
+        27,
+        32,
+        36,
+        37,
+        39,
+        30,
+        31,
+        34,
+        38,
+        41,
+        45,
+        12,
+        40,
+        44,
+        52,
+        57,
+        60,
+        9,
+        11,
+        33,
+        42,
+        56,
+        79,
+        6,
+        8,
+        24,
+        53,
+        69,
+        74
+      ]
+    },
+    "clock": 1791327031459,
+    "stateValid": true
+  },
+  {
+    "seed": 2026,
+    "milestones": [
+      {
+        "prestige": 0,
+        "boss": 20,
+        "minutes": 5,
+        "deaths": 3,
+        "gold": 280,
+        "companion": 0,
+        "academyRenown": 0
+      },
+      {
+        "prestige": 1,
+        "boss": 25,
+        "minutes": 12,
+        "deaths": 10,
+        "gold": 1229,
+        "companion": 0,
+        "academyRenown": 0
+      },
+      {
+        "prestige": 2,
+        "boss": 32,
+        "minutes": 30,
+        "deaths": 50,
+        "gold": 4480,
+        "companion": 0,
+        "academyRenown": 0
+      },
+      {
+        "prestige": 3,
+        "boss": 41,
+        "minutes": 39,
+        "deaths": 50,
+        "gold": 6148,
+        "companion": 0,
+        "academyRenown": 0
+      },
+      {
+        "prestige": 4,
+        "boss": 52,
+        "minutes": 52,
+        "deaths": 50,
+        "gold": 37249,
+        "companion": 2,
+        "academyRenown": 0
+      },
+      {
+        "prestige": 5,
+        "boss": 65,
+        "minutes": 53,
+        "deaths": 50,
+        "gold": 37757,
+        "companion": 4,
+        "academyRenown": 0
+      },
+      {
+        "prestige": 6,
+        "boss": 80,
+        "minutes": 56,
+        "deaths": 50,
+        "gold": 33356,
+        "companion": 6,
+        "academyRenown": 0
+      },
+      {
+        "prestige": 7,
+        "boss": 97,
+        "minutes": 59,
+        "deaths": 50,
+        "gold": 261467,
+        "companion": 7,
+        "academyRenown": 0
+      }
+    ],
+    "dungeonReadyState": {
+      "gold": 37757,
+      "essence": 0,
+      "materials": 6,
+      "prestigeCount": 5,
+      "zoneLootClaims": [
+        3,
+        5,
+        10,
+        15,
+        20,
+        25,
+        30,
+        35,
+        40,
+        45,
+        50,
+        55,
+        60
+      ],
+      "onboarding": {
+        "unlocked": [
+          "harvest",
+          "prestige",
+          "craft",
+          "exchange",
+          "sets",
+          "academy",
+          "companion",
+          "rival",
+          "dungeon",
+          "escape"
+        ],
+        "seen": []
+      },
+      "autoRepair": {
+        "owned": false,
+        "enabled": false
+      },
+      "escapeSigils": 0,
+      "summon": {
+        "unlocked": false,
+        "active": null,
+        "lastPulseAt": 0
+      },
+      "blueprints": {
+        "common": 13,
+        "rare": 5,
+        "epic": 3,
+        "legendary": 0
+      },
+      "resources": {
+        "herbs": 2,
+        "supplies": 67
+      },
+      "gardenBestLevel": 52,
+      "rival": {
+        "met": false,
+        "level": 1,
+        "relationship": "neutral",
+        "respect": 0,
+        "chapter": 0,
+        "meetings": 0,
+        "wins": 0,
+        "losses": 0,
+        "since": 567,
+        "dailyCount": 0,
+        "resetAt": 1791410649035,
+        "pending": {
+          "level": 8,
+          "gold": 188,
+          "id": 1
+        },
+        "duel": null,
+        "quest": null,
+        "journal": []
+      },
+      "companions": {
+        "active": "fox",
+        "creatures": [
+          {
+            "type": "fox",
+            "befriended": true,
+            "level": 4,
+            "xp": 23,
+            "traits": [
+              "hunter"
+            ],
+            "pulse": 1,
+            "lastAbilityAt": 1791327456635
+          },
+          {
+            "type": "wolf",
+            "befriended": false,
+            "level": 1,
+            "xp": 0,
+            "traits": [],
+            "pulse": 0,
+            "lastAbilityAt": 0
+          },
+          {
+            "type": "turtle",
+            "befriended": false,
+            "level": 1,
+            "xp": 0,
+            "traits": [],
+            "pulse": 0,
+            "lastAbilityAt": 0
+          }
+        ],
+        "feedCount": 0,
+        "feedResetAt": 1791410649035
+      },
+      "dungeon": {
+        "run": null,
+        "best": 0,
+        "tokens": 0,
+        "mastery": 0,
+        "milestones": []
+      },
+      "cropJournal": {
+        "wheat": 17,
+        "herb": 23,
+        "crystal": 12,
+        "oats": 16
+      },
+      "caretaker": {
+        "owned": false,
+        "enabled": false,
+        "remaining": 0,
+        "resetAt": 0
+      },
+      "campActive": false,
+      "checkpointLevel": 61,
+      "merchantReputation": 3,
+      "exchangeRequests": [],
+      "blueprintFragments": {
+        "common": 9,
+        "rare": 0,
+        "epic": 0,
+        "legendary": 0
+      },
+      "academySigils": 5,
+      "bossLevel": 65,
+      "bossHp": 180625,
+      "bossMaxHp": 187415,
+      "playerHp": 450,
+      "playerMaxHp": 450,
+      "stats": {
+        "hp": 25,
+        "atk": 25,
+        "str": 21,
+        "spd": 23,
+        "def": 25,
+        "critChance": 20,
+        "critMult": 20
+      },
+      "equipped": {
+        "weapon": {
+          "id": 1791324249053,
+          "slot": "weapon",
+          "rarity": "epic",
+          "name": "The Hollow Reach Fang",
+          "setId": null,
+          "bonuses": [
+            {
+              "stat": "atkPct",
+              "label": "ATK",
+              "suffix": "%",
+              "value": 1458.56
+            },
+            {
+              "stat": "critMultFlat",
+              "label": "Crit Dmg",
+              "suffix": "x",
+              "value": 8.57
+            },
+            {
+              "stat": "doubleHitChance",
+              "label": "Double Hit",
+              "suffix": "%",
+              "value": 16
+            }
+          ],
+          "keptAtPrestige": 5,
+          "locked": false,
+          "durabilityMax": 100000,
+          "durability": 99523,
+          "wearRemainder": 0,
+          "durabilityWarned": false,
+          "bindLevel": 2
+        },
+        "helmet": {
+          "id": 1791324249088,
+          "slot": "helmet",
+          "rarity": "epic",
+          "name": "The Hollow Reach Helm",
+          "setId": "prospector",
+          "bonuses": [
+            {
+              "stat": "defFlat",
+              "label": "DEF",
+              "suffix": "",
+              "value": 872.21
+            }
+          ],
+          "keptAtPrestige": null,
+          "locked": false,
+          "durabilityMax": 100000,
+          "durability": 99987,
+          "wearRemainder": 0.4297526452245818,
+          "durabilityWarned": false
+        },
+        "necklace": {
+          "id": 1791324249089,
+          "slot": "necklace",
+          "rarity": "epic",
+          "name": "The Iron Expanse Pendant",
+          "setId": null,
+          "bonuses": [
+            {
+              "stat": "critChanceFlat",
+              "label": "Crit Chance",
+              "suffix": "%",
+              "value": 398.55
+            }
+          ],
+          "keptAtPrestige": null,
+          "locked": false,
+          "durabilityMax": 100000,
+          "durability": 99912,
+          "wearRemainder": 0,
+          "durabilityWarned": false
+        },
+        "chest": {
+          "id": 1791324249090,
+          "slot": "chest",
+          "rarity": "epic",
+          "name": "The Wyrmfall Depths Breastplate",
+          "setId": null,
+          "bonuses": [
+            {
+              "stat": "defFlat",
+              "label": "DEF",
+              "suffix": "",
+              "value": 579.94
+            }
+          ],
+          "keptAtPrestige": null,
+          "locked": false,
+          "durabilityMax": 100000,
+          "durability": 99998,
+          "wearRemainder": 0.6666666666666665,
+          "durabilityWarned": false
+        },
+        "shield": {
+          "id": 1791324249072,
+          "slot": "shield",
+          "rarity": "rare",
+          "name": "The Iron Expanse Bulwark",
+          "setId": "prospector",
+          "bonuses": [
+            {
+              "stat": "defFlat",
+              "label": "DEF",
+              "suffix": "",
+              "value": 158.97
+            }
+          ],
+          "keptAtPrestige": null,
+          "locked": false,
+          "durabilityMax": 75000,
+          "durability": 74964,
+          "wearRemainder": 0.8765460994483747,
+          "durabilityWarned": false
+        },
+        "legs": {
+          "id": 1791324248985,
+          "slot": "legs",
+          "rarity": "epic",
+          "name": "The Bramblewood Road Greaves",
+          "setId": "stalker",
+          "bonuses": [
+            {
+              "stat": "defFlat",
+              "label": "DEF",
+              "suffix": "",
+              "value": 557.01
+            }
+          ],
+          "keptAtPrestige": 4,
+          "locked": false,
+          "durabilityMax": 100000,
+          "durability": 99051,
+          "wearRemainder": 0.7167746533633081,
+          "durabilityWarned": false
+        },
+        "ring": {
+          "id": 1791324249078,
+          "slot": "ring",
+          "rarity": "rare",
+          "name": "The Bramblewood Road Band",
+          "setId": null,
+          "bonuses": [
+            {
+              "stat": "spdFlat",
+              "label": "Speed",
+              "suffix": "/s",
+              "value": 6.98
+            }
+          ],
+          "keptAtPrestige": null,
+          "locked": false,
+          "durabilityMax": 75000,
+          "durability": 74684,
+          "wearRemainder": 0,
+          "durabilityWarned": false
+        },
+        "boots": {
+          "id": 1791324249083,
+          "slot": "boots",
+          "rarity": "epic",
+          "name": "The Cinderfall Bastion Treads",
+          "setId": null,
+          "bonuses": [
+            {
+              "stat": "defFlat",
+              "label": "DEF",
+              "suffix": "",
+              "value": 644.03
+            }
+          ],
+          "keptAtPrestige": null,
+          "locked": false,
+          "durabilityMax": 100000,
+          "durability": 99974,
+          "wearRemainder": 0.8399447922588323,
+          "durabilityWarned": false
+        }
+      },
+      "inventory": [
+        {
+          "id": 1791324249068,
+          "slot": "chest",
+          "rarity": "rare",
+          "name": "The Sable Throne Breastplate",
+          "setId": "vanguard",
+          "bonuses": [
+            {
+              "stat": "defFlat",
+              "label": "DEF",
+              "suffix": "",
+              "value": 118.21
+            }
+          ],
+          "keptAtPrestige": null,
+          "locked": false,
+          "durabilityMax": 75000,
+          "durability": 74965,
+          "wearRemainder": 0.4628411052555762,
+          "durabilityWarned": false
+        }
+      ],
+      "legacy": [
+        {
+          "id": 1791324248807,
+          "slot": "weapon",
+          "rarity": "common",
+          "name": "The Bramblewood Road Fang",
+          "setId": "prospector",
+          "bonuses": [
+            {
+              "stat": "atkPct",
+              "label": "ATK",
+              "suffix": "%",
+              "value": 49.48
+            },
+            {
+              "stat": "doubleHitChance",
+              "label": "Double Hit",
+              "suffix": "%",
+              "value": 16
+            }
+          ],
+          "keptAtPrestige": 1,
+          "locked": false,
+          "durabilityMax": 50000,
+          "durability": 43926,
+          "wearRemainder": 0,
+          "durabilityWarned": false,
+          "bindLevel": 2
+        },
+        {
+          "id": 1791324248874,
+          "slot": "weapon",
+          "rarity": "common",
+          "name": "Cracked Blade",
+          "setId": "stalker",
+          "bonuses": [
+            {
+              "stat": "atkPct",
+              "label": "ATK",
+              "suffix": "%",
+              "value": 173.61
+            },
+            {
+              "stat": "doubleHitChance",
+              "label": "Double Hit",
+              "suffix": "%",
+              "value": 24
+            }
+          ],
+          "keptAtPrestige": 3,
+          "locked": false,
+          "durabilityMax": 50000,
+          "durability": 29531,
+          "wearRemainder": 0,
+          "durabilityWarned": false,
+          "bindLevel": 3
+        },
+        {
+          "id": 1791324248842,
+          "slot": "boots",
+          "rarity": "rare",
+          "name": "The Hollow Reach Treads",
+          "setId": "prospector",
+          "bonuses": [
+            {
+              "stat": "defFlat",
+              "label": "DEF",
+              "suffix": "",
+              "value": 164.22
+            }
+          ],
+          "keptAtPrestige": 2,
+          "locked": false,
+          "durabilityMax": 75000,
+          "durability": 72470,
+          "wearRemainder": 0.02094676369472359,
+          "durabilityWarned": false
+        }
+      ],
+      "overflow": [],
+      "autoOwned": true,
+      "autoActive": true,
+      "lastClickTs": 0,
+      "lastSave": 1791324248835,
+      "gcTimerMs": 0,
+      "gcFailedOnce": false,
+      "roundNumber": 1,
+      "pbBossLevel": 65,
+      "atkTimerMs": 200,
+      "perks": {
+        "invSlots": 0,
+        "legacySlots": 0,
+        "bindCostReduction": 0,
+        "goldBonusPct": 0,
+        "dropBonusPct": 0,
+        "extraHp": 5,
+        "bossHpReduction": 0
+      },
+      "favor": 0,
+      "academy": {
+        "unlocked": true,
+        "adventurers": [
+          {
+            "id": 1791324249028,
+            "name": "Marrow",
+            "level": 1,
+            "xp": 0,
+            "gear": {
+              "tool": 0,
+              "armor": 0
+            },
+            "busy": null,
+            "injuredUntil": null,
+            "encounter": null,
+            "talents": [],
+            "role": "scout",
+            "abilities": [],
+            "questProgress": 0,
+            "signature": false
+          },
+          {
+            "id": 1791324249046,
+            "name": "Corvin",
+            "level": 1,
+            "xp": 0,
+            "gear": {
+              "tool": 0,
+              "armor": 0
+            },
+            "busy": null,
+            "injuredUntil": null,
+            "encounter": null,
+            "talents": [],
+            "role": "guardian",
+            "abilities": [],
+            "questProgress": 0,
+            "signature": false
+          }
+        ],
+        "renown": 0,
+        "introSeen": false,
+        "expeditions": [
+          {
+            "id": 1791324249029,
+            "destination": "woods",
+            "fragmentRarity": "common",
+            "team": [
+              1791324249028
+            ],
+            "pack": {
+              "herbs": 0,
+              "provisions": 3,
+              "tools": 0,
+              "gold": 0
+            },
+            "initialProvisions": 3,
+            "purseCost": 4711,
+            "stage": 0,
+            "readyAt": 1791327689035,
+            "startedAt": 1791327089035,
+            "paths": [],
+            "loot": {
+              "gold": 0,
+              "materials": 0,
+              "fragments": 0,
+              "sigils": 0
+            },
+            "baseGold": 235575,
+            "baseMaterials": 1
+          }
+        ],
+        "discoveries": [
+          "woods"
+        ],
+        "relics": [],
+        "routes": []
+      },
+      "lifetimeMaterials": 126,
+      "exchangeStock": {
+        "common": {
+          "item": {
+            "id": 1791324248845,
+            "slot": "boots",
+            "rarity": "common",
+            "name": "Cracked Striders",
+            "setId": null,
+            "bonuses": [
+              {
+                "stat": "defFlat",
+                "label": "DEF",
+                "suffix": "",
+                "value": 32.22
+              }
+            ],
+            "keptAtPrestige": null,
+            "locked": false,
+            "durabilityMax": 50000,
+            "durability": 50000,
+            "wearRemainder": 0,
+            "durabilityWarned": false
+          },
+          "sold": false
+        },
+        "rare": {
+          "item": {
+            "id": 1791324248846,
+            "slot": "chest",
+            "rarity": "rare",
+            "name": "Steel Hauberk",
+            "setId": null,
+            "bonuses": [
+              {
+                "stat": "defFlat",
+                "label": "DEF",
+                "suffix": "",
+                "value": 115.28
+              }
+            ],
+            "keptAtPrestige": null,
+            "locked": false,
+            "durabilityMax": 75000,
+            "durability": 75000,
+            "wearRemainder": 0,
+            "durabilityWarned": false
+          },
+          "sold": false
+        },
+        "epic": {
+          "item": {
+            "id": 1791324248847,
+            "slot": "helmet",
+            "rarity": "epic",
+            "name": "Titan's Casque",
+            "setId": null,
+            "bonuses": [
+              {
+                "stat": "defFlat",
+                "label": "DEF",
+                "suffix": "",
+                "value": 393.52
+              }
+            ],
+            "keptAtPrestige": null,
+            "locked": false,
+            "durabilityMax": 100000,
+            "durability": 100000,
+            "wearRemainder": 0,
+            "durabilityWarned": false
+          },
+          "sold": false
+        },
+        "epic_3": {
+          "item": {
+            "id": 1791324248848,
+            "slot": "legs",
+            "rarity": "epic",
+            "name": "Runic Legguards",
+            "setId": null,
+            "bonuses": [
+              {
+                "stat": "defFlat",
+                "label": "DEF",
+                "suffix": "",
+                "value": 275.14
+              }
+            ],
+            "keptAtPrestige": null,
+            "locked": false,
+            "durabilityMax": 100000,
+            "durability": 100000,
+            "wearRemainder": 0,
+            "durabilityWarned": false
+          },
+          "sold": false
+        }
+      },
+      "exchangeRefreshAt": 1791346519235,
+      "bounties": [
+        {
+          "templateId": "autohit",
+          "label": "Auto-Attack %d Times",
+          "type": "autohit",
+          "stat": "autoHits",
+          "target": 320,
+          "progress": 320,
+          "completed": true,
+          "claimedAt": 1791324989035,
+          "startAt": 0,
+          "carriedProgress": 320,
+          "rewards": {
+            "gold": 2730,
+            "materials": 3,
+            "favor": 0,
+            "essence": 0,
+            "reputation": 1
+          }
+        },
+        {
+          "templateId": "craft",
+          "label": "Craft %d Items",
+          "type": "craft",
+          "stat": "itemsCrafted",
+          "target": 1,
+          "progress": 1,
+          "completed": true,
+          "claimedAt": 1791324969035,
+          "startAt": 0,
+          "carriedProgress": 1,
+          "rewards": {
+            "gold": 3640,
+            "materials": 5,
+            "favor": 0,
+            "essence": 0,
+            "reputation": 1
+          }
+        },
+        {
+          "templateId": "kill",
+          "label": "Defeat %d Bosses",
+          "type": "kill",
+          "stat": "bossesKilled",
+          "target": 5,
+          "progress": 5,
+          "completed": true,
+          "claimedAt": 1791324964035,
+          "startAt": 0,
+          "carriedProgress": 5,
+          "rewards": {
+            "gold": 2730,
+            "materials": 3,
+            "favor": 0,
+            "essence": 0,
+            "reputation": 1
+          }
+        }
+      ],
+      "bountyResetAt": 1791411319235,
+      "bountyStats": {
+        "dismantles": 11,
+        "dodges": 0,
+        "bossesKilled": 64,
+        "bindsMade": 2,
+        "autoHits": 248,
+        "itemsCrafted": 1,
+        "clicksLanded": 195,
+        "critsLanded": 297,
+        "goldEarned": 233288,
+        "bossLevelReached": 65,
+        "blocksSurvived": 0,
+        "blocksLanded": 0,
+        "thornsDamageDealt": 0,
+        "dodgeHealsLanded": 0,
+        "lifestealHealed": 0
+      },
+      "harvests": {
+        "seeds": [
+          {
+            "id": 1791324249063,
+            "templateId": "herb",
+            "obtainedAt": 1791327400635
+          },
+          {
+            "id": 1791324249067,
+            "templateId": "oats",
+            "obtainedAt": 1791327409635
+          },
+          {
+            "id": 1791324249069,
+            "templateId": "oats",
+            "obtainedAt": 1791327414635
+          },
+          {
+            "id": 1791324249077,
+            "templateId": "crystal",
+            "obtainedAt": 1791327426635
+          },
+          {
+            "id": 1791324249084,
+            "templateId": "oats",
+            "obtainedAt": 1791327432835
+          },
+          {
+            "id": 1791324249085,
+            "templateId": "oats",
+            "obtainedAt": 1791327433435
+          },
+          {
+            "id": 1791324249087,
+            "templateId": "crystal",
+            "obtainedAt": 1791327439235
+          }
+        ],
+        "plots": [
+          {
+            "id": 1791324249075,
+            "templateId": "wheat",
+            "plantedAt": 1791327424035,
+            "harvestedAt": null
+          },
+          {
+            "id": 1791324249081,
+            "templateId": "wheat",
+            "plantedAt": 1791327429035,
+            "harvestedAt": null
+          },
+          {
+            "id": 1791324249082,
+            "templateId": "oats",
+            "plantedAt": 1791327429035,
+            "harvestedAt": null
+          }
+        ],
+        "lastAutoHarvest": 0
+      },
+      "harvestUpgrades": {
+        "slots2": false,
+        "slots3": false,
+        "slots4": false,
+        "autoHarvest1": false,
+        "autoHarvest2": false,
+        "goldBoost1": false,
+        "materialBoost1": false
+      },
+      "harvestBossesEncountered": [
+        8,
+        10,
+        13,
+        1,
+        3,
+        6,
+        7,
+        14,
+        17,
+        22,
+        21,
+        24,
+        15,
+        26,
+        29,
+        27,
+        28,
+        4,
+        5,
+        20,
+        31,
+        34,
+        36,
+        37,
+        39,
+        12,
+        23,
+        35,
+        38,
+        40,
+        45,
+        48,
+        51,
+        18,
+        33,
+        41,
+        46
+      ]
+    },
+    "minutes": 59,
+    "prestige": 8,
+    "boss": 1,
+    "deaths": 50,
+    "academyWins": 0,
+    "academyRenown": 0,
+    "totalBounties": 3,
+    "items": 8,
+    "journal": {
+      "wheat": 18,
+      "herb": 23,
+      "crystal": 12,
+      "oats": 16
+    },
+    "endState": {
+      "gold": 0,
+      "essence": 9,
+      "materials": 2,
+      "prestigeCount": 8,
+      "zoneLootClaims": [],
+      "onboarding": {
+        "unlocked": [
+          "harvest",
+          "prestige",
+          "craft",
+          "exchange",
+          "sets",
+          "academy",
+          "companion",
+          "rival",
+          "dungeon",
+          "escape",
+          "caretaker"
+        ],
+        "seen": []
+      },
+      "autoRepair": {
+        "owned": false,
+        "enabled": false
+      },
+      "escapeSigils": 0,
+      "summon": {
+        "unlocked": false,
+        "active": null,
+        "lastPulseAt": 0
+      },
+      "blueprints": {
+        "common": 18,
+        "rare": 10,
+        "epic": 3,
+        "legendary": 0
+      },
+      "resources": {
+        "herbs": 2,
+        "supplies": 67
+      },
+      "gardenBestLevel": 97,
+      "rival": {
+        "met": false,
+        "level": 1,
+        "relationship": "neutral",
+        "respect": 0,
+        "chapter": 0,
+        "meetings": 0,
+        "wins": 0,
+        "losses": 0,
+        "since": 742,
+        "dailyCount": 0,
+        "resetAt": 1791410649035,
+        "pending": {
+          "level": 8,
+          "gold": 188,
+          "id": 1
+        },
+        "duel": null,
+        "quest": null,
+        "journal": []
+      },
+      "companions": {
+        "active": "fox",
+        "creatures": [
+          {
+            "type": "fox",
+            "befriended": true,
+            "level": 7,
+            "xp": 42,
+            "traits": [
+              "hunter",
+              "hunter"
+            ],
+            "pulse": 5,
+            "lastAbilityAt": 1791327794435
+          },
+          {
+            "type": "wolf",
+            "befriended": false,
+            "level": 1,
+            "xp": 0,
+            "traits": [],
+            "pulse": 0,
+            "lastAbilityAt": 0
+          },
+          {
+            "type": "turtle",
+            "befriended": false,
+            "level": 1,
+            "xp": 0,
+            "traits": [],
+            "pulse": 0,
+            "lastAbilityAt": 0
+          }
+        ],
+        "feedCount": 0,
+        "feedResetAt": 1791410649035
+      },
+      "dungeon": {
+        "run": null,
+        "best": 0,
+        "tokens": 0,
+        "mastery": 0,
+        "milestones": []
+      },
+      "cropJournal": {
+        "wheat": 18,
+        "herb": 23,
+        "crystal": 12,
+        "oats": 16
+      },
+      "caretaker": {
+        "owned": false,
+        "enabled": false,
+        "remaining": 0,
+        "resetAt": 0
+      },
+      "campActive": false,
+      "checkpointLevel": 1,
+      "merchantReputation": 3,
+      "exchangeRequests": [],
+      "blueprintFragments": {
+        "common": 11,
+        "rare": 0,
+        "epic": 0,
+        "legendary": 0
+      },
+      "academySigils": 5,
+      "bossLevel": 1,
+      "bossHp": 188,
+      "bossMaxHp": 188,
+      "playerHp": 221,
+      "playerMaxHp": 221,
+      "stats": {
+        "hp": 0,
+        "atk": 0,
+        "str": 0,
+        "spd": 0,
+        "def": 0,
+        "critChance": 0,
+        "critMult": 0
+      },
+      "equipped": {
+        "weapon": {
+          "id": 1791324249186,
+          "slot": "weapon",
+          "rarity": "epic",
+          "name": "The Iron Expanse Fang",
+          "setId": "stalker",
+          "bonuses": [
+            {
+              "stat": "atkPct",
+              "label": "ATK",
+              "suffix": "%",
+              "value": 1738.72
+            },
+            {
+              "stat": "critMultFlat",
+              "label": "Crit Dmg",
+              "suffix": "x",
+              "value": 29.32
+            }
+          ],
+          "keptAtPrestige": 8,
+          "locked": false,
+          "durabilityMax": 100000,
+          "durability": 99911,
+          "wearRemainder": 0,
+          "durabilityWarned": false
+        },
+        "helmet": {
+          "id": 1791324249088,
+          "slot": "helmet",
+          "rarity": "epic",
+          "name": "The Hollow Reach Helm",
+          "setId": "prospector",
+          "bonuses": [
+            {
+              "stat": "defFlat",
+              "label": "DEF",
+              "suffix": "",
+              "value": 872.21
+            },
+            {
+              "stat": "goldGainPct",
+              "label": "Bonus Gold",
+              "suffix": "%",
+              "value": 30
+            }
+          ],
+          "keptAtPrestige": 6,
+          "locked": false,
+          "durabilityMax": 100000,
+          "durability": 99889,
+          "wearRemainder": 0.12619540758888914,
+          "durabilityWarned": false,
+          "bindLevel": 1
+        },
+        "necklace": null,
+        "chest": null,
+        "shield": null,
+        "legs": {
+          "id": 1791324249134,
+          "slot": "legs",
+          "rarity": "epic",
+          "name": "The Cinderfall Bastion Greaves",
+          "setId": null,
+          "bonuses": [
+            {
+              "stat": "defFlat",
+              "label": "DEF",
+              "suffix": "",
+              "value": 1153.43
+            }
+          ],
+          "keptAtPrestige": 7,
+          "locked": false,
+          "durabilityMax": 100000,
+          "durability": 99924,
+          "wearRemainder": 0.8771566425098679,
+          "durabilityWarned": false
+        },
+        "ring": null,
+        "boots": {
+          "id": 1791324248842,
+          "slot": "boots",
+          "rarity": "rare",
+          "name": "The Hollow Reach Treads",
+          "setId": "prospector",
+          "bonuses": [
+            {
+              "stat": "defFlat",
+              "label": "DEF",
+              "suffix": "",
+              "value": 164.22
+            }
+          ],
+          "keptAtPrestige": 2,
+          "locked": false,
+          "durabilityMax": 75000,
+          "durability": 72453,
+          "wearRemainder": 0.30119897455406697,
+          "durabilityWarned": false
+        }
+      },
+      "inventory": [],
+      "legacy": [
+        {
+          "id": 1791324248807,
+          "slot": "weapon",
+          "rarity": "common",
+          "name": "The Bramblewood Road Fang",
+          "setId": "prospector",
+          "bonuses": [
+            {
+              "stat": "atkPct",
+              "label": "ATK",
+              "suffix": "%",
+              "value": 49.48
+            },
+            {
+              "stat": "doubleHitChance",
+              "label": "Double Hit",
+              "suffix": "%",
+              "value": 16
+            }
+          ],
+          "keptAtPrestige": 1,
+          "locked": false,
+          "durabilityMax": 50000,
+          "durability": 43926,
+          "wearRemainder": 0,
+          "durabilityWarned": false,
+          "bindLevel": 2
+        },
+        {
+          "id": 1791324248874,
+          "slot": "weapon",
+          "rarity": "common",
+          "name": "Cracked Blade",
+          "setId": "stalker",
+          "bonuses": [
+            {
+              "stat": "atkPct",
+              "label": "ATK",
+              "suffix": "%",
+              "value": 173.61
+            },
+            {
+              "stat": "doubleHitChance",
+              "label": "Double Hit",
+              "suffix": "%",
+              "value": 24
+            }
+          ],
+          "keptAtPrestige": 3,
+          "locked": false,
+          "durabilityMax": 50000,
+          "durability": 29531,
+          "wearRemainder": 0,
+          "durabilityWarned": false,
+          "bindLevel": 3
+        },
+        {
+          "id": 1791324248985,
+          "slot": "legs",
+          "rarity": "epic",
+          "name": "The Bramblewood Road Greaves",
+          "setId": "stalker",
+          "bonuses": [
+            {
+              "stat": "defFlat",
+              "label": "DEF",
+              "suffix": "",
+              "value": 557.01
+            }
+          ],
+          "keptAtPrestige": 4,
+          "locked": false,
+          "durabilityMax": 100000,
+          "durability": 99029,
+          "wearRemainder": 0.7830487250249786,
+          "durabilityWarned": false
+        },
+        {
+          "id": 1791324249053,
+          "slot": "weapon",
+          "rarity": "epic",
+          "name": "The Hollow Reach Fang",
+          "setId": null,
+          "bonuses": [
+            {
+              "stat": "atkPct",
+              "label": "ATK",
+              "suffix": "%",
+              "value": 1458.56
+            },
+            {
+              "stat": "critMultFlat",
+              "label": "Crit Dmg",
+              "suffix": "x",
+              "value": 8.57
+            },
+            {
+              "stat": "doubleHitChance",
+              "label": "Double Hit",
+              "suffix": "%",
+              "value": 24
+            }
+          ],
+          "keptAtPrestige": 5,
+          "locked": false,
+          "durabilityMax": 100000,
+          "durability": 96957,
+          "wearRemainder": 0,
+          "durabilityWarned": false,
+          "bindLevel": 3
+        }
+      ],
+      "overflow": [],
+      "autoOwned": false,
+      "autoActive": false,
+      "lastClickTs": 0,
+      "lastSave": 1791324248835,
+      "gcTimerMs": 0,
+      "gcFailedOnce": false,
+      "roundNumber": 1,
+      "pbBossLevel": 1,
+      "atkTimerMs": 0,
+      "perks": {
+        "invSlots": 0,
+        "legacySlots": 0,
+        "bindCostReduction": 0,
+        "goldBonusPct": 0,
+        "dropBonusPct": 0,
+        "extraHp": 8,
+        "bossHpReduction": 0
+      },
+      "favor": 0,
+      "academy": {
+        "unlocked": true,
+        "adventurers": [
+          {
+            "id": 1791324249028,
+            "name": "Marrow",
+            "level": 1,
+            "xp": 0,
+            "gear": {
+              "tool": 0,
+              "armor": 0
+            },
+            "busy": null,
+            "injuredUntil": 1791327989035,
+            "encounter": null,
+            "talents": [],
+            "role": "scout",
+            "abilities": [],
+            "questProgress": 0,
+            "signature": false
+          },
+          {
+            "id": 1791324249046,
+            "name": "Corvin",
+            "level": 1,
+            "xp": 0,
+            "gear": {
+              "tool": 0,
+              "armor": 0
+            },
+            "busy": null,
+            "injuredUntil": null,
+            "encounter": null,
+            "talents": [],
+            "role": "guardian",
+            "abilities": [],
+            "questProgress": 0,
+            "signature": false
+          },
+          {
+            "id": 1791324249187,
+            "name": "Rowan",
+            "level": 1,
+            "xp": 0,
+            "gear": {
+              "tool": 0,
+              "armor": 0
+            },
+            "busy": null,
+            "injuredUntil": null,
+            "encounter": null,
+            "talents": [],
+            "role": "scholar",
+            "abilities": [],
+            "questProgress": 0,
+            "signature": false
+          },
+          {
+            "id": 1791324249193,
+            "name": "Tamsin",
+            "level": 1,
+            "xp": 0,
+            "gear": {
+              "tool": 0,
+              "armor": 0
+            },
+            "busy": null,
+            "injuredUntil": null,
+            "encounter": null,
+            "talents": [],
+            "role": "quartermaster",
+            "abilities": [],
+            "questProgress": 0,
+            "signature": false
+          }
+        ],
+        "renown": 0,
+        "introSeen": false,
+        "expeditions": [
+          {
+            "id": 1791324249029,
+            "destination": "woods",
+            "fragmentRarity": "common",
+            "team": [
+              1791324249028
+            ],
+            "pack": {
+              "herbs": 0,
+              "provisions": 2,
+              "tools": 0,
+              "gold": 0
+            },
+            "initialProvisions": 3,
+            "purseCost": 4711,
+            "stage": 1,
+            "readyAt": 1791328289035,
+            "startedAt": 1791327089035,
+            "paths": [
+              "safe"
+            ],
+            "loot": {
+              "gold": 0,
+              "materials": 0,
+              "fragments": 0,
+              "sigils": 0
+            },
+            "baseGold": 235575,
+            "baseMaterials": 1
+          }
+        ],
+        "discoveries": [
+          "woods",
+          "woods-0"
+        ],
+        "relics": [],
+        "routes": [
+          "woods-safe"
+        ]
+      },
+      "lifetimeMaterials": 150,
+      "exchangeStock": {
+        "common": {
+          "item": {
+            "id": 1791324248845,
+            "slot": "boots",
+            "rarity": "common",
+            "name": "Cracked Striders",
+            "setId": null,
+            "bonuses": [
+              {
+                "stat": "defFlat",
+                "label": "DEF",
+                "suffix": "",
+                "value": 32.22
+              }
+            ],
+            "keptAtPrestige": null,
+            "locked": false,
+            "durabilityMax": 50000,
+            "durability": 50000,
+            "wearRemainder": 0,
+            "durabilityWarned": false
+          },
+          "sold": false
+        },
+        "rare": {
+          "item": {
+            "id": 1791324248846,
+            "slot": "chest",
+            "rarity": "rare",
+            "name": "Steel Hauberk",
+            "setId": null,
+            "bonuses": [
+              {
+                "stat": "defFlat",
+                "label": "DEF",
+                "suffix": "",
+                "value": 115.28
+              }
+            ],
+            "keptAtPrestige": null,
+            "locked": false,
+            "durabilityMax": 75000,
+            "durability": 75000,
+            "wearRemainder": 0,
+            "durabilityWarned": false
+          },
+          "sold": false
+        },
+        "epic": {
+          "item": {
+            "id": 1791324248847,
+            "slot": "helmet",
+            "rarity": "epic",
+            "name": "Titan's Casque",
+            "setId": null,
+            "bonuses": [
+              {
+                "stat": "defFlat",
+                "label": "DEF",
+                "suffix": "",
+                "value": 393.52
+              }
+            ],
+            "keptAtPrestige": null,
+            "locked": false,
+            "durabilityMax": 100000,
+            "durability": 100000,
+            "wearRemainder": 0,
+            "durabilityWarned": false
+          },
+          "sold": false
+        },
+        "epic_3": {
+          "item": {
+            "id": 1791324248848,
+            "slot": "legs",
+            "rarity": "epic",
+            "name": "Runic Legguards",
+            "setId": null,
+            "bonuses": [
+              {
+                "stat": "defFlat",
+                "label": "DEF",
+                "suffix": "",
+                "value": 275.14
+              }
+            ],
+            "keptAtPrestige": null,
+            "locked": false,
+            "durabilityMax": 100000,
+            "durability": 100000,
+            "wearRemainder": 0,
+            "durabilityWarned": false
+          },
+          "sold": false
+        }
+      },
+      "exchangeRefreshAt": 1791346519235,
+      "bounties": [
+        {
+          "templateId": "autohit",
+          "label": "Auto-Attack %d Times",
+          "type": "autohit",
+          "stat": "autoHits",
+          "target": 320,
+          "progress": 320,
+          "completed": true,
+          "claimedAt": 1791324989035,
+          "startAt": 0,
+          "carriedProgress": 320,
+          "rewards": {
+            "gold": 2730,
+            "materials": 3,
+            "favor": 0,
+            "essence": 0,
+            "reputation": 1
+          }
+        },
+        {
+          "templateId": "craft",
+          "label": "Craft %d Items",
+          "type": "craft",
+          "stat": "itemsCrafted",
+          "target": 1,
+          "progress": 1,
+          "completed": true,
+          "claimedAt": 1791324969035,
+          "startAt": 0,
+          "carriedProgress": 1,
+          "rewards": {
+            "gold": 3640,
+            "materials": 5,
+            "favor": 0,
+            "essence": 0,
+            "reputation": 1
+          }
+        },
+        {
+          "templateId": "kill",
+          "label": "Defeat %d Bosses",
+          "type": "kill",
+          "stat": "bossesKilled",
+          "target": 5,
+          "progress": 5,
+          "completed": true,
+          "claimedAt": 1791324964035,
+          "startAt": 0,
+          "carriedProgress": 5,
+          "rewards": {
+            "gold": 2730,
+            "materials": 3,
+            "favor": 0,
+            "essence": 0,
+            "reputation": 1
+          }
+        }
+      ],
+      "bountyResetAt": 1791411319235,
+      "bountyStats": {
+        "dismantles": 0,
+        "dodges": 0,
+        "bossesKilled": 0,
+        "bindsMade": 0,
+        "autoHits": 0,
+        "itemsCrafted": 0,
+        "clicksLanded": 0,
+        "critsLanded": 0,
+        "goldEarned": 0,
+        "bossLevelReached": 0,
+        "blocksSurvived": 0,
+        "blocksLanded": 0,
+        "thornsDamageDealt": 0,
+        "dodgeHealsLanded": 0,
+        "lifestealHealed": 0
+      },
+      "harvests": {
+        "seeds": [],
+        "plots": [],
+        "lastAutoHarvest": 0
+      },
+      "harvestUpgrades": {
+        "slots2": false,
+        "slots3": false,
+        "slots4": false,
+        "autoHarvest1": false,
+        "autoHarvest2": false,
+        "goldBoost1": false,
+        "materialBoost1": false
+      },
+      "harvestBossesEncountered": [
+        8,
+        10,
+        13,
+        1,
+        3,
+        6,
+        7,
+        14,
+        17,
+        22,
+        21,
+        24,
+        15,
+        26,
+        29,
+        27,
+        28,
+        4,
+        5,
+        20,
+        31,
+        34,
+        36,
+        37,
+        39,
+        12,
+        23,
+        35,
+        38,
+        40,
+        45,
+        48,
+        51,
+        18,
+        33,
+        41,
+        46,
+        2,
+        9,
+        19,
+        30,
+        32,
+        42,
+        50,
+        54,
+        60,
+        64,
+        71,
+        78,
+        43,
+        44,
+        52,
+        66,
+        73,
+        74,
+        77,
+        87,
+        88
+      ]
+    },
+    "clock": 1791327797035,
+    "stateValid": true
+  }
+]
