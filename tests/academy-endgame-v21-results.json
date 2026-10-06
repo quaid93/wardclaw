@@ -1,0 +1,298 @@
+{
+  "completed": 41,
+  "visited": [
+    "bastion",
+    "ruins",
+    "throne",
+    "woods"
+  ],
+  "renown": 627,
+  "team": 3,
+  "levels": [
+    20,
+    20,
+    20,
+    20
+  ],
+  "gear": [
+    {
+      "tool": 5,
+      "armor": 5
+    },
+    {
+      "tool": 5,
+      "armor": 5
+    },
+    {
+      "tool": 5,
+      "armor": 5
+    },
+    {
+      "tool": 5,
+      "armor": 5
+    }
+  ],
+  "guide": 16,
+  "blueprints": {
+    "common": 23,
+    "rare": 17,
+    "epic": 6,
+    "legendary": 30
+  },
+  "caretaker": true,
+  "valid": true,
+  "milestones": [
+    {
+      "day": 1,
+      "renown": 44,
+      "gold": 121511319,
+      "levels": [
+        7,
+        4,
+        1,
+        1
+      ],
+      "blueprints": {
+        "common": 13,
+        "rare": 13,
+        "epic": 4,
+        "legendary": 0
+      },
+      "caretaker": false
+    },
+    {
+      "day": 2,
+      "renown": 87,
+      "gold": 467903282,
+      "levels": [
+        11,
+        9,
+        7,
+        2
+      ],
+      "blueprints": {
+        "common": 16,
+        "rare": 13,
+        "epic": 4,
+        "legendary": 1
+      },
+      "caretaker": true
+    },
+    {
+      "day": 3,
+      "renown": 123,
+      "gold": 1005141620,
+      "levels": [
+        14,
+        11,
+        10,
+        7
+      ],
+      "blueprints": {
+        "common": 16,
+        "rare": 13,
+        "epic": 4,
+        "legendary": 3
+      },
+      "caretaker": true
+    },
+    {
+      "day": 4,
+      "renown": 177,
+      "gold": 1917809537,
+      "levels": [
+        17,
+        15,
+        14,
+        18
+      ],
+      "blueprints": {
+        "common": 19,
+        "rare": 13,
+        "epic": 4,
+        "legendary": 6
+      },
+      "caretaker": true
+    },
+    {
+      "day": 5,
+      "renown": 213,
+      "gold": 2578264775,
+      "levels": [
+        19,
+        17,
+        16,
+        20
+      ],
+      "blueprints": {
+        "common": 19,
+        "rare": 13,
+        "epic": 4,
+        "legendary": 8
+      },
+      "caretaker": true
+    },
+    {
+      "day": 6,
+      "renown": 267,
+      "gold": 3614901635,
+      "levels": [
+        20,
+        20,
+        19,
+        20
+      ],
+      "blueprints": {
+        "common": 19,
+        "rare": 14,
+        "epic": 4,
+        "legendary": 11
+      },
+      "caretaker": true
+    },
+    {
+      "day": 7,
+      "renown": 303,
+      "gold": 4326654368,
+      "levels": [
+        20,
+        20,
+        20,
+        20
+      ],
+      "blueprints": {
+        "common": 19,
+        "rare": 14,
+        "epic": 4,
+        "legendary": 13
+      },
+      "caretaker": true
+    },
+    {
+      "day": 8,
+      "renown": 357,
+      "gold": 5397489560,
+      "levels": [
+        20,
+        20,
+        20,
+        20
+      ],
+      "blueprints": {
+        "common": 20,
+        "rare": 15,
+        "epic": 4,
+        "legendary": 16
+      },
+      "caretaker": true
+    },
+    {
+      "day": 9,
+      "renown": 393,
+      "gold": 5992398000,
+      "levels": [
+        20,
+        20,
+        20,
+        20
+      ],
+      "blueprints": {
+        "common": 20,
+        "rare": 15,
+        "epic": 5,
+        "legendary": 18
+      },
+      "caretaker": true
+    },
+    {
+      "day": 10,
+      "renown": 447,
+      "gold": 6875142405,
+      "levels": [
+        20,
+        20,
+        20,
+        20
+      ],
+      "blueprints": {
+        "common": 21,
+        "rare": 15,
+        "epic": 5,
+        "legendary": 21
+      },
+      "caretaker": true
+    },
+    {
+      "day": 11,
+      "renown": 483,
+      "gold": 7470050845,
+      "levels": [
+        20,
+        20,
+        20,
+        20
+      ],
+      "blueprints": {
+        "common": 21,
+        "rare": 16,
+        "epic": 5,
+        "legendary": 22
+      },
+      "caretaker": true
+    },
+    {
+      "day": 12,
+      "renown": 537,
+      "gold": 8352795223,
+      "levels": [
+        20,
+        20,
+        20,
+        20
+      ],
+      "blueprints": {
+        "common": 23,
+        "rare": 16,
+        "epic": 5,
+        "legendary": 25
+      },
+      "caretaker": true
+    },
+    {
+      "day": 13,
+      "renown": 591,
+      "gold": 9423630415,
+      "levels": [
+        20,
+        20,
+        20,
+        20
+      ],
+      "blueprints": {
+        "common": 23,
+        "rare": 16,
+        "epic": 5,
+        "legendary": 28
+      },
+      "caretaker": true
+    },
+    {
+      "day": 14,
+      "renown": 627,
+      "gold": 10137520543,
+      "levels": [
+        20,
+        20,
+        20,
+        20
+      ],
+      "blueprints": {
+        "common": 23,
+        "rare": 17,
+        "epic": 6,
+        "legendary": 30
+      },
+      "caretaker": true
+    }
+  ]
+}
