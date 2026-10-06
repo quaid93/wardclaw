@@ -339,12 +339,10 @@
     .cur{font-size:0.72rem;padding:5px 7px;}
     .brand h1{font-size:1rem;}
   }
-.departure-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:24px}.departure-grid>div{min-width:0}.dungeon-departure{margin:16px 0}.dungeon-departure h4{margin:12px 0 8px}.departure-gear{list-style:none;padding:0;margin:0}.departure-gear li{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:10px 0;border-bottom:1px solid var(--border)}.departure-gear li>div{min-width:0;overflow-wrap:anywhere}.departure-durability{text-align:right;flex-shrink:0;font-family:'JetBrains Mono',monospace;font-size:.78rem}.departure-warning{color:var(--danger);overflow-wrap:anywhere}.departure-rewards{padding-left:18px;color:var(--text-dim);font-size:.76rem}.departure-rewards li{margin:6px 0;overflow-wrap:anywhere}.departure-entry{border-top:1px solid var(--border);margin-top:16px;padding-top:8px}.departure-entry .btn{width:100%;white-space:normal;overflow-wrap:anywhere}@media(max-width:640px){.departure-grid{grid-template-columns:minmax(0,1fr);gap:12px}}
 [hidden]{display:none!important}
 </style>
 <style>
 .feature-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px}.feature-grid>*{min-width:0}.academy-map svg{position:absolute;inset:0;width:100%;height:100%;pointer-events:none}.academy-map{position:relative;padding:24px 12px;background:radial-gradient(ellipse at 30% 20%,#234239,#141c2a 70%);border:1px solid var(--border);border-radius:14px}.map-destinations{position:relative;z-index:1;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px}.map-node{border-radius:14px!important;white-space:normal;min-height:94px}.map-node[aria-pressed=true]{outline:2px solid var(--gold)}.journey-map{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;padding:16px 0}.journey-stop{border-top:3px solid var(--border);padding:12px 4px;text-align:center}.journey-stop.current{border-color:var(--gold)}.journey-stop.done{border-color:var(--ok)}.compact-card{border:1px solid var(--border);border-radius:10px;padding:12px;min-width:0}.academy-prep label{display:block;margin:8px 0}.academy-prep input[type=number]{width:65px}.academy-prep .btn,.academy-map .btn{white-space:normal;overflow-wrap:anywhere}.academy-intro{border-left:3px solid var(--gold)}details{margin:12px 0}summary{cursor:pointer;padding:8px}.guide-entry{opacity:.55}.guide-entry.found{opacity:1;color:var(--gold)}
-.departure-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:24px}.departure-grid>div{min-width:0}.dungeon-departure{margin:16px 0}.dungeon-departure h4{margin:12px 0 8px}.departure-gear{list-style:none;padding:0;margin:0}.departure-gear li{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:10px 0;border-bottom:1px solid var(--border)}.departure-gear li>div{min-width:0;overflow-wrap:anywhere}.departure-durability{text-align:right;flex-shrink:0;font-family:'JetBrains Mono',monospace;font-size:.78rem}.departure-warning{color:var(--danger);overflow-wrap:anywhere}.departure-rewards{padding-left:18px;color:var(--text-dim);font-size:.76rem}.departure-rewards li{margin:6px 0;overflow-wrap:anywhere}.departure-entry{border-top:1px solid var(--border);margin-top:16px;padding-top:8px}.departure-entry .btn{width:100%;white-space:normal;overflow-wrap:anywhere}@media(max-width:640px){.departure-grid{grid-template-columns:minmax(0,1fr);gap:12px}}
 [hidden]{display:none!important}
 </style>
 <style>
@@ -1387,12 +1385,14 @@ function fusionIsMaxed(item){ return fusionLevelOf(item) >= MAX_FUSION_LEVEL; }
 function fusionMultFor(item){ const lvl = fusionLevelOf(item); return lvl > 0 ? FUSION_LEVEL_MULT[lvl-1] : 1; }
 
 // Find another legacy item with the same name, slot, and rarity (not yet fused together)
+function sameGearIdentity(a,b){
+  return a.name===b.name && a.slot===b.slot && a.rarity===b.rarity;
+}
+
 function findFusionPartner(item){
   return S.legacy.find(other =>
     other.id !== item.id && !other.locked &&
-    other.name === item.name &&
-    other.slot === item.slot &&
-    other.rarity === item.rarity
+    sameGearIdentity(other,item)
   );
 }
 
@@ -1403,7 +1403,7 @@ function performFusion(primaryId, sacrificeId){
 
   if(!primary || !sacrifice) return false;
   if(primary.id === sacrifice.id) return false;
-  if(primary.name !== sacrifice.name || primary.slot !== sacrifice.slot || primary.rarity !== sacrifice.rarity){
+  if(!sameGearIdentity(primary,sacrifice)){
     toast("Can only fuse identical items (same name, slot, and rarity).");
     return false;
   }
@@ -2307,7 +2307,7 @@ function rollBonusesFor(slot, rarity, bossLevel){
   ];
   return [pool[Math.floor(Math.random()*pool.length)]()];
 }
-function genBossItem(slot, name, rarity, bossLevel){
+function createGearItem(slot, name, rarity, bossLevel){
   const item = {id: ++itemIdCounter, slot, rarity, name, setId:Math.random()<0.35 ? ["vanguard","stalker","prospector"][Math.floor(Math.random()*3)] : null, bonuses: rollBonusesFor(slot, rarity, bossLevel), keptAtPrestige:null,locked:false};
 
   if(rarity === "legendary"){
@@ -2324,25 +2324,14 @@ function genBossItem(slot, name, rarity, bossLevel){
 
   ensureGearDurability(item);return item;
 }
+function genBossItem(slot, name, rarity, bossLevel){
+  return createGearItem(slot, name, rarity, bossLevel);
+}
 function genCraftedItem(slot, rarity, bossLevel,recipeName=null){
   const noun = SLOT_NOUNS[slot][Math.floor(Math.random()*SLOT_NOUNS[slot].length)];
   const adj = CRAFT_ADJ[rarity][Math.floor(Math.random()*CRAFT_ADJ[rarity].length)];
   const name = recipeName || `${adj} ${noun}`;
-  const item = {id: ++itemIdCounter, slot, rarity, name, setId:Math.random()<0.35 ? ["vanguard","stalker","prospector"][Math.floor(Math.random()*3)] : null, bonuses: rollBonusesFor(slot, rarity, bossLevel), keptAtPrestige:null,locked:false};
-
-  if(rarity === "legendary"){
-    const awakeTemplate = getAwakeningTemplate(slot);
-    item.awakening = {
-      isAwakened: false,
-      stat: awakeTemplate.stat,
-      milestone: awakeTemplate.milestone,
-      target: awakeTemplate.baseTarget(bossLevel),
-      progress: 0,
-      secondaryStat: awakeTemplate.secondaryStat
-    };
-  }
-
-  ensureGearDurability(item);return item;
+  return createGearItem(slot, name, rarity, bossLevel);
 }
 
 /* ---------------------------------------------------------
@@ -2647,7 +2636,7 @@ function dismantleFrom(location,id){
   save();renderAll();toast(`Dismantled ${item.name}: ${amount} material${amount===1 ? "" : "s"}.`);return true;
 }
 
-function findDuplicate(name,slot,rarity){return allOwnedItems().find(i=>i.name===name && i.slot===slot && i.rarity===rarity);}
+function findDuplicate(name,slot,rarity){return allOwnedItems().find(i=>sameGearIdentity(i,{name,slot,rarity}));}
 function acquireItem(item,sourceLabel){
   const duplicate=findDuplicate(item.name,item.slot,item.rarity);
   if(duplicate && item.rarity !== "legendary" && !item.locked){
@@ -3282,14 +3271,18 @@ function renderCombat(){
   renderLootPreview(bossName(S.bossLevel), "combatLootPreview");
 }
 
+function statPurchaseInfo(def){
+  const level = S.stats[def.key];
+  const cost = statCost(def, level);
+  const val = statValue(def, level);
+  const capped = def.cap !== undefined && val >= def.cap;
+  return {level, cost, val, capped, unaffordable: !capped && S.gold < cost};
+}
+
 function renderQuickStats(){
   const list = document.getElementById("quickStatsList");
   list.innerHTML = STAT_DEFS.map(def=>{
-    const level = S.stats[def.key];
-    const cost = statCost(def, level);
-    const val = statValue(def, level);
-    const capped = def.cap !== undefined && val >= def.cap;
-    const unaffordable = !capped && S.gold < cost;
+    const {level, cost, val, capped, unaffordable} = statPurchaseInfo(def);
     return `
       <div class="qs-row">
         <div class="qs-icon">${def.icon}</div>
@@ -3310,11 +3303,7 @@ function renderStats(){
   const list = document.getElementById("statList");
   list.innerHTML = "";
   STAT_DEFS.forEach(def=>{
-    const level = S.stats[def.key];
-    const val = statValue(def, level);
-    const cost = statCost(def, level);
-    const capped = def.cap !== undefined && val >= def.cap;
-    const unaffordable = !capped && S.gold < cost;
+    const {level, cost, val, capped, unaffordable} = statPurchaseInfo(def);
     const row = document.createElement("div");
     row.className = "stat-row";
     row.innerHTML = `
@@ -3395,6 +3384,11 @@ function renderOverflow(){
   const rows=filtered.slice(overflowPage*12,overflowPage*12+12);
   document.getElementById("overflowStash").innerHTML=`<h3>Overflow Stash (${filtered.length}/${S.overflow.length})</h3>${gearToolsHtml("overflow")}<p class="muted">Excess drops and displaced equipment wait here without deleting anything. Claim or equip gear when ready. Ordinary overflow gear resets on Prestige; Legacy gear stays permanent. Locks protect destructive actions.</p>`+(rows.length ? `<div class="inv-grid">`+rows.map(item=>`<div class="inv-card">${itemCardHtml(item)}<div class="item-actions"><button class="btn" data-equipoverflow="${item.id}">Equip</button><button class="btn secondary" data-claimoverflow="${item.id}" ${(isLegacyItem(item) ? S.legacy.length>=legacyCap() : S.inventory.length>=invCap()) ? "disabled" : ""}>${isLegacyItem(item) ? "Move to Legacy" : "Move to Inventory"}</button><button class="btn secondary" data-dismantleoverflow="${item.id}" ${item.locked ? "disabled" : ""}>Dismantle</button></div></div>`).join("")+`</div><div class="craft-row"><button class="btn secondary" data-overflowpage="-1" ${overflowPage===0 ? "disabled" : ""}>Previous</button><span>Page ${overflowPage+1}/${pages}</span><button class="btn secondary" data-overflowpage="1" ${overflowPage>=pages-1 ? "disabled" : ""}>Next</button></div>` : `<p class="muted">No overflow gear.</p>`);
 }
+function inventoryItemsForSlot(slot){
+  return S.inventory.filter(i=>i.slot===slot && gearMatches(i,"inventory"))
+    .sort((a,b)=>RARITIES.indexOf(b.rarity)-RARITIES.indexOf(a.rarity));
+}
+
 function renderItems(){
   const setHtml=`<details><summary>Equipment sets · 2 / 3 piece bonuses</summary>`+Object.entries(EQUIPMENT_SETS).map(([id,set])=>`<p class="muted">${set.label} · ${setCount(id)} equipped${setCount(id)>=2 ? " · active" : ""}<br>${set.desc}</p>`).join("")+`</details>`;
   const setPanel=document.getElementById("equipmentSets");if(setPanel.dataset.lastHtml!==setHtml){const opened=setPanel.querySelector("details")?.open;setPanel.innerHTML=setHtml;setPanel.dataset.lastHtml=setHtml;if(opened)setPanel.querySelector("details").open=true;}
@@ -3472,8 +3466,7 @@ function renderItems(){
   renderInventoryTools();
   document.getElementById("invEmptyMsg").style.display = S.inventory.length ? "none" : "block";
   SLOT_LIST.forEach(slot=>{
-    const items = S.inventory.filter(i=>i.slot===slot && gearMatches(i,"inventory"))
-      .sort((a,b)=>RARITIES.indexOf(b.rarity)-RARITIES.indexOf(a.rarity));
+    const items = inventoryItemsForSlot(slot);
     if(!items.length) return;
     const section = document.createElement("div");
     section.className = "inv-section";
@@ -3850,8 +3843,7 @@ function openEquipSlotModal(slot){
 
   function render(){
     const current = S.equipped[slot];
-    const items = S.inventory.filter(i=>i.slot===slot && gearMatches(i,"inventory"))
-      .sort((a,b)=>RARITIES.indexOf(b.rarity)-RARITIES.indexOf(a.rarity));
+    const items = inventoryItemsForSlot(slot);
 
     let modalHtml = `
       <div class="modal-overlay">
@@ -4133,14 +4125,12 @@ document.getElementById("lootToggleBtn").addEventListener("click", ()=>{
   btn.classList.toggle("open", !isOpen);
 });
 
-document.getElementById("statList").addEventListener("click", (e)=>{
-  const key = e.target.dataset.buy;
-  if(key) buyStat(key);
-});
-document.getElementById("quickStatsList").addEventListener("click", (e)=>{
-  const key = e.target.dataset.buy;
-  if(key) buyStat(key);
-});
+for(const id of ["statList", "quickStatsList"]){
+  document.getElementById(id).addEventListener("click", e=>{
+    const key = e.target.dataset.buy;
+    if(key) buyStat(key);
+  });
+}
 
 document.getElementById("equipSlots").addEventListener("click", (e)=>{
   const unequipSlotKey = e.target.dataset.unequip;

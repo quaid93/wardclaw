@@ -37,3 +37,11 @@ node tests/academy-endgame-v26.cjs
 Checks cover staged UI visibility, meaningful Forge access, introductions and navigation, old-save migration, retained hidden rewards, mobile layout, export/import and backup recovery, Prestige carry-over, and dungeon readiness/entry/reload.
 
 Three seeded simulations used actual game actions, earned resources, repairs, and visibility-aware strategies to reach Prestige 8. A 14-day simulated Academy continuation from an earned save reached every destination, three-person teams, level-20 recruits, advanced recruit equipment, legendary blueprints, and the caretaker. Results are saved in the test JSON files. Simulated timing and automated strategies do not predict human playtime or guarantee every possible build is balanced. This version changes presentation and unlock visibility rather than reward formulas.
+
+## Code reuse pass
+
+Gear generation now shares one item factory, preserving random calls, item fields, durability, and legendary awakening. Stat views share purchase calculations; inventory panels and the equipment modal share filtering and rarity sorting; duplicate detection and fusion share item identity rules. Repeated stat listeners and identical CSS blocks are consolidated. No save schema, gameplay rules, rewards, unlock schedule, or UI wording changed.
+
+The readable standalone file shrank from 4,292 to 4,282 lines and from 327,958 to 325,325 bytes. Line count remains substantial because the HTML contains the entire game's UI, styles, data, and logic.
+
+`node tests/refactor-equivalence-v26.cjs` compares against the original v26 commit (`329828b`): 384 seeded generated items, fresh/endgame DOM markup, computed mobile styles, state, stat costs/values, and duplicate/fusion selection must match. All five regression suites above also passed after the refactor.
